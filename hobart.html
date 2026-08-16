@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hobart Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html,body{margin:0;padding:0;height:100%;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  #map{position:absolute;inset:0}
+  .pin-title{font-weight:700}
+  .pin-cat{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.5px}
+  .pin-desc{color:#555;font-size:12px;margin-top:3px}
+  .back{position:absolute;z-index:1000;top:10px;left:10px;background:#fff;border-radius:20px;padding:8px 14px;
+    font-size:13px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.25);text-decoration:none;color:#333}
+  .legend{position:absolute;z-index:999;bottom:18px;left:10px;background:rgba(255,255,255,.95);border-radius:8px;
+    padding:10px 12px;box-shadow:0 2px 10px rgba(0,0,0,.25);font-size:12px;max-width:240px;line-height:1.7}
+  .legend b{display:block;margin-bottom:4px;font-size:12.5px}
+  .legend .dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:middle;
+    border:1px solid rgba(0,0,0,.15)}
+</style>
+</head>
+<body>
+  <div id="map"></div>
+  <a class="back" href="index.html">← All cities</a>
+  <div class="legend">
+    <b>Hobart</b>
+    <span><span class="dot" style="background:#111"></span> Accommodation</span><br>
+    <span><span class="dot" style="background:#d32f2f"></span> Activity / Attraction</span><br>
+    <span><span class="dot" style="background:#e67e22"></span> Breakfast / Coffee</span><br>
+    <span><span class="dot" style="background:#2e7d32"></span> Bakery</span><br>
+    <span><span class="dot" style="background:#1565c0"></span> Lunch / Sandwiches</span><br>
+    <span><span class="dot" style="background:#8e24aa"></span> Dinner / Dessert</span><br>
+    <span><span class="dot" style="background:#00838f"></span> Pub / Sports Bar</span>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([-42.8847, 147.3225], 14);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Google Maps URIs from the Places API (googleMapsUri) — reliable on mobile
+    const places = [
+      {name:"ibis Styles Hobart", cat:"Accommodation", addr:"165 Macquarie St", color:"#111", lat:-42.887975, lon:147.323428, gm:"https://maps.google.com/?cid=14011177854619217109"},
+
+      {name:"MONA", cat:"Activity", addr:"655 Main Rd, Berriedale (ferry 25min)", color:"#d32f2f", lat:-42.812544, lon:147.261459, gm:"https://maps.google.com/?cid=14011177854619217109"},
+      {name:"Salamanca Market", cat:"Activity", addr:"Salamanca Pl · Saturdays", color:"#d32f2f", lat:-42.886922, lon:147.332111, gm:"https://maps.google.com/?cid=7553894622984224381"},
+      {name:"Farm Gate Market", cat:"Activity", addr:"104 Bathurst St · Sundays", color:"#d32f2f", lat:-42.881362, lon:147.325147, gm:"https://maps.google.com/?cid=15911523181461204171"},
+      {name:"Mount Wellington (kunanyi)", cat:"Activity", addr:"Wellington Park · Sun tour", color:"#d32f2f", lat:-42.890000, lon:147.230000, gm:"https://maps.google.com/?cid=13331146495583987641"},
+      {name:"Cascade Brewery Bar", cat:"Activity", addr:"140 Cascade Rd, South Hobart", color:"#d32f2f", lat:-42.896061, lon:147.293442, gm:"https://maps.google.com/?cid=12138549215731406353"},
+
+      {name:"Sunbear Coffee", cat:"Breakfast", addr:"145 Collins St · 3 min", color:"#e67e22", lat:-42.884480, lon:147.325639, gm:"https://maps.google.com/?cid=650728792568795355"},
+      {name:"Dandy Lane Cafe", cat:"Breakfast", addr:"Unit 10/138 Collins St · 6 min", color:"#e67e22", lat:-42.883252, lon:147.328078, gm:"https://maps.google.com/?cid=953242008535282366"},
+      {name:"Staple Coffee", cat:"Breakfast", addr:"2 Bidencopes Lane · 8 min", color:"#e67e22", lat:-42.883015, lon:147.325992, gm:"https://maps.google.com/?cid=16079913874131211036"},
+      {name:"Brekkie & Beans", cat:"Breakfast", addr:"86 Collins St · 9 min", color:"#e67e22", lat:-42.881882, lon:147.329371, gm:"https://maps.google.com/?cid=9808702397074932083"},
+      {name:"Lēoht", cat:"Breakfast", addr:"46A Hampden Rd, Battery Pt · 15 min", color:"#e67e22", lat:-42.889630, lon:147.335004, gm:"https://maps.google.com/?cid=13016586168129219269"},
+      {name:"OZUS Coffee", cat:"Breakfast", addr:"56 Hampden Rd, Battery Pt · 15 min", color:"#e67e22", lat:-42.889743, lon:147.334033, gm:"https://maps.google.com/?cid=15608847520949057880"},
+      {name:"BLOOM Coffee x Bites", cat:"Breakfast", addr:"102 Collins St · 10 min", color:"#e67e22", lat:-42.882501, lon:147.328717, gm:"https://maps.google.com/?cid=9390954584842263899"},
+      {name:"Erda", cat:"Breakfast", addr:"167A Harrington St · 11 min", color:"#e67e22", lat:-42.881557, lon:147.320922, gm:"https://maps.google.com/?cid=1041566616656534789"},
+
+      {name:"Pigeon Whole Bakers", cat:"Bakery", addr:"32 Argyle St · 9 min", color:"#2e7d32", lat:-42.881547, lon:147.330283, gm:"https://maps.google.com/?cid=16685373756434209798"},
+      {name:"Jackman & McRoss", cat:"Bakery", addr:"57 Hampden Rd, Battery Pt", color:"#2e7d32", lat:-42.889683, lon:147.333414, gm:"https://maps.google.com/?cid=6299244466449550197"},
+
+      {name:"Happy Larry Deli", cat:"Lunch", addr:"59-63 Liverpool St · 10 min", color:"#1565c0", lat:-42.880411, lon:147.327750, gm:"https://maps.google.com/?cid=7444353242442314773"},
+      {name:"Westside Laundry", cat:"Lunch", addr:"87 Goulburn St · 11 min", color:"#1565c0", lat:-42.886353, lon:147.319673, gm:"https://maps.google.com/?cid=13232138138859443121"},
+
+      {name:"Drunken Admiral", cat:"Dinner", addr:"17/19 Hunter St · booked 5pm Sat", color:"#8e24aa", lat:-42.881123, lon:147.334915, gm:"https://maps.google.com/?cid=2668029807381145468"},
+      {name:"Flippers Cooked Seafood", cat:"Dinner", addr:"1 Constitution Dock", color:"#8e24aa", lat:-42.882191, lon:147.333141, gm:"https://maps.google.com/?cid=959863676264324235"},
+      {name:"Fish Frenzy", cat:"Dinner", addr:"Elizabeth St Pier, Sullivans Cove", color:"#8e24aa", lat:-42.883831, lon:147.333337, gm:"https://maps.google.com/?cid=9943293189700394149"},
+      {name:"Gigi's Diner", cat:"Dinner", addr:"17A Castray Esp, Battery Pt", color:"#8e24aa", lat:-42.886735, lon:147.336670, gm:"https://maps.google.com/?cid=10500295379868374142"},
+      {name:"Urban Greek", cat:"Dinner", addr:"103 Murray St · 10 min", color:"#8e24aa", lat:-42.881492, lon:147.323985, gm:"https://maps.google.com/?cid=13956115671143652372"},
+      {name:"Van Diemens Land Creamery", cat:"Dessert", addr:"Constitution Dock", color:"#8e24aa", lat:-42.882222, lon:147.333220, gm:"https://maps.google.com/?cid=13133688954289147774"},
+      {name:"Honey Badger Dessert Cafe", cat:"Dessert", addr:"7 Salamanca Square", color:"#8e24aa", lat:-42.887695, lon:147.332706, gm:"https://maps.google.com/?cid=7538239293980626780"},
+
+      {name:"Pavilion @ Salamanca", cat:"Pub", addr:"61 Salamanca Pl", color:"#00838f", lat:-42.886851, lon:147.332995, gm:"https://maps.google.com/?cid=6263250592209432953"},
+      {name:"Irish Murphy's", cat:"Pub", addr:"21 Salamanca Pl", color:"#00838f", lat:-42.886572, lon:147.330928, gm:"https://maps.google.com/?cid=2014275565762126150"},
+      {name:"Mary Mary", cat:"Pub", addr:"2a Salamanca Pl", color:"#00838f", lat:-42.885390, lon:147.329475, gm:"https://maps.google.com/?cid=15034759723221099445"},
+      {name:"New Sydney Hotel", cat:"Pub", addr:"87 Bathurst St · 11 min", color:"#00838f", lat:-42.880902, lon:147.325343, gm:"https://maps.google.com/?cid=2768542726094316784"}
+    ];
+
+    places.forEach((p,i) => {
+      const n = i+1;
+      const html = `<div style="width:24px;height:24px;border-radius:50%;background:${p.color};border:2.5px solid #fff;
+        box-shadow:0 2px 6px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;
+        font:700 11px/1 Arial;color:#fff">${n}</div>`;
+      L.marker([p.lat,p.lon], {icon: L.divIcon({className:'',html,iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map)
+        .bindPopup(`<div class="pin-cat">${p.cat}</div><div class="pin-title">${p.name}</div>
+                    <div class="pin-desc">${p.addr}</div>
+                    <a href="${p.gm}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 12px;background:#4285F4;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600">📍 Open in Google Maps</a>`);
+    });
+  </script>
+</body>
+</html>
