@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sydney Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html,body{margin:0;padding:0;height:100%;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  #map{position:absolute;inset:0}
+  .pin-title{font-weight:700}
+  .pin-cat{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.5px}
+  .pin-desc{color:#555;font-size:12px;margin-top:3px}
+  .back{position:absolute;z-index:1000;top:10px;left:10px;background:#fff;border-radius:20px;padding:8px 14px;
+    font-size:13px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.25);text-decoration:none;color:#333}
+  .legend{position:absolute;z-index:999;bottom:18px;left:10px;background:rgba(255,255,255,.95);border-radius:8px;
+    padding:10px 12px;box-shadow:0 2px 10px rgba(0,0,0,.25);font-size:12px;max-width:240px;line-height:1.7}
+  .legend b{display:block;margin-bottom:4px;font-size:12.5px}
+  .legend .dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:middle;
+    border:1px solid rgba(0,0,0,.15)}
+</style>
+</head>
+<body>
+  <div id="map"></div>
+  <a class="back" href="index.html">← All cities</a>
+  <div class="legend">
+    <b>Sydney</b>
+    <span><span class="dot" style="background:#e67e22"></span> Lunch / Cafe</span><br>
+    <span><span class="dot" style="background:#8e24aa"></span> Dinner</span><br>
+    <span><span class="dot" style="background:#00838f"></span> Drinks</span><br>
+    <span style="color:#888;font-size:11px">In progress — more areas pending</span>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([-33.8666, 151.2089], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const places = [
+      {name:"The Meat & Wine Co Sydney CBD Castlereagh St", cat:"Dinner", addr:"219-223 Castlereagh St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.875427, lon:151.2088003, gm:"https://maps.google.com/"},
+      {name:"BISTECCA", cat:"Dinner", addr:"3 Dalley St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.8632981, lon:151.2078628, gm:"https://maps.google.com/"},
+      {name:"Felix Bistro & Brasserie", cat:"Dinner", addr:"2 Ash St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.866682, lon:151.207768, gm:"https://maps.google.com/"},
+      {name:"Elements Bar and Grill Pyrmont", cat:"Dinner", addr:"2/3 Harris St, Pyrmont NSW 2009, Australia", color:"#8e24aa", lat:-33.8656891, lon:151.1910005, gm:"https://maps.google.com/"},
+      {name:"6HEAD Sydney", cat:"Dinner", addr:"Bay 10 & 11, Campbell\u2019s Stores, 7-27 Circular Quay W, The Rocks NSW 2000, Australia", color:"#8e24aa", lat:-33.856647599999995, lon:151.2090994, gm:"https://maps.google.com/"},
+      {name:"Kingsleys Australian Steakhouse", cat:"Dinner", addr:"29a King St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.868877999999995, lon:151.20404810000002, gm:"https://maps.google.com/"},
+      {name:"Funkatello", cat:"Dinner", addr:"80 Stanley St, Darlinghurst NSW 2010, Australia", color:"#8e24aa", lat:-33.8756511, lon:151.2157255, gm:"https://maps.google.com/"},
+      {name:"Bar Reggio", cat:"Dinner", addr:"135 Crown St, Darlinghurst NSW 2010, Australia", color:"#8e24aa", lat:-33.8760833, lon:151.2157715, gm:"https://maps.google.com/"},
+      {name:"Matteo Downtown", cat:"Dinner", addr:"20 Bond St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.8644622, lon:151.2081264, gm:"https://maps.google.com/"},
+      {name:"The Apollo Restaurant", cat:"Dinner", addr:"44 Macleay St, Potts Point NSW 2011, Australia", color:"#8e24aa", lat:-33.8708503, lon:151.22535779999998, gm:"https://maps.google.com/"},
+      {name:"Pony Dining The Rocks", cat:"Dinner", addr:"Cnr Argyle Street, and, Kendall Ln, The Rocks NSW 2000, Australia", color:"#8e24aa", lat:-33.8590136, lon:151.20845359999998, gm:"https://maps.google.com/"},
+      {name:"Woodcut", cat:"Dinner", addr:"Level 1/1 Barangaroo Ave, Barangaroo NSW 2000, Australia", color:"#8e24aa", lat:-33.862679799999995, lon:151.2011949, gm:"https://maps.google.com/"},
+      {name:"Bar Luca", cat:"Dinner", addr:"52 Phillip St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.863968, lon:151.21193399999999, gm:"https://maps.google.com/"},
+      {name:"Fabbrica Pasta Shop CBD", cat:"Dinner", addr:"161 King St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.8692083, lon:151.21006599999998, gm:"https://maps.google.com/"},
+      {name:"The Gidley", cat:"Dinner", addr:"Basement/161 King St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.8692214, lon:151.21015549999998, gm:"https://maps.google.com/"},
+      {name:"Mr. Wong", cat:"Dinner", addr:"3 Bridge Ln, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.8640567, lon:151.20785210000003, gm:"https://maps.google.com/"},
+      {name:"ALEGRA", cat:"Dinner", addr:"Unit 2.16/22-36 Mountain St, Ultimo NSW 2007, Australia", color:"#8e24aa", lat:-33.882487999999995, lon:151.196397, gm:"https://maps.google.com/"},
+      {name:"Clam Bar", cat:"Dinner", addr:"44 Bridge St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.8632044, lon:151.2109731, gm:"https://maps.google.com/"},
+      {name:"Elliott's", cat:"Dinner", addr:"79 Elliott St, Balmain NSW 2041, Australia", color:"#8e24aa", lat:-33.856355799999996, lon:151.1724999, gm:"https://maps.google.com/"},
+      {name:"Lavendra Indian", cat:"Dinner", addr:"5 Walker St, Lavender Bay NSW 2060, Australia", color:"#8e24aa", lat:-33.843236, lon:151.208143, gm:"https://maps.google.com/"},
+      {name:"Neptune's Grotto", cat:"Dinner", addr:"Loftus Lane & Young Street, 44 Bridge St, Sydney NSW 2000, Australia", color:"#8e24aa", lat:-33.8632044, lon:151.2109731, gm:"https://maps.google.com/"},
+      {name:"Appizza", cat:"Dinner", addr:"191-195 Oxford St, Darlinghurst NSW 2010, Australia", color:"#8e24aa", lat:-33.8809702, lon:151.21725229999998, gm:"https://maps.google.com/"},
+      {name:"The Fenwick", cat:"Dinner", addr:"2-8 Weston St, Balmain East NSW 2041, Australia", color:"#8e24aa", lat:-33.8573034, lon:151.1957224, gm:"https://maps.google.com/"},
+      {name:"Grace of India Restaurant Sydney", cat:"Dinner", addr:"16 Ennis Rd, Milsons Point NSW 2061, Australia", color:"#8e24aa", lat:-33.845568799999995, lon:151.2123513, gm:"https://maps.google.com/"},
+      {name:"Tommy's Darlinghurst", cat:"Dinner", addr:"263 Victoria St, Darlinghurst NSW 2010, Australia", color:"#8e24aa", lat:-33.8788, lon:151.22105969999998, gm:"https://maps.google.com/"},
+      {name:"Banksia Bakehouse", cat:"Lunch/Cafe", addr:"225 George St, Tenancy 4 Grosvenor Place, Sydney NSW 2000, Australia", color:"#e67e22", lat:-33.862387999999996, lon:151.2073333, gm:"https://maps.google.com/"},
+      {name:"Binge Kitchen - Cafe in Sydney", cat:"Lunch/Cafe", addr:"4/31 Market St, Sydney NSW 2000, Australia", color:"#e67e22", lat:-33.8711841, lon:151.2061132, gm:"https://maps.google.com/"},
+      {name:"Bopp & Tone", cat:"Lunch/Cafe", addr:"60 Carrington St, Sydney NSW 2000, Australia", color:"#e67e22", lat:-33.8668185, lon:151.2064637, gm:"https://maps.google.com/"},
+      {name:"The Fenwick", cat:"Lunch/Cafe", addr:"2-8 Weston St, Balmain East NSW 2041, Australia", color:"#e67e22", lat:-33.8573034, lon:151.1957224, gm:"https://maps.google.com/"},
+      {name:"Bourke Street Bakery Surry Hills", cat:"Lunch/Cafe", addr:"633 Bourke St, Surry Hills NSW 2010, Australia", color:"#e67e22", lat:-33.8894017, lon:151.2148985, gm:"https://maps.google.com/"},
+      {name:"Cross Section | Darlinghurst", cat:"Lunch/Cafe", addr:"84-90 McLachlan Ave, Darlinghurst NSW 2010, Australia", color:"#e67e22", lat:-33.8786501, lon:151.22635259999998, gm:"https://maps.google.com/"},
+      {name:"PI\u00d1A", cat:"Lunch/Cafe", addr:"shop 4/29 Orwell St, Potts Point NSW 2011, Australia", color:"#e67e22", lat:-33.8724136, lon:151.2243411, gm:"https://maps.google.com/"},
+      {name:"KASKA Eatery & Cafe", cat:"Lunch/Cafe", addr:"Shop 1/19a Boundary St, Darlinghurst NSW 2010, Australia", color:"#e67e22", lat:-33.878892799999996, lon:151.2248158, gm:"https://maps.google.com/"},
+      {name:"Bar Mammoni Pasta & Deli", cat:"Lunch/Cafe", addr:"Shop/2 Loftus Ln, Sydney NSW 2000, Australia", color:"#e67e22", lat:-33.8626863, lon:151.2108475, gm:"https://maps.google.com/"},
+      {name:"La Renaissance Patisserie and Cafe", cat:"Lunch/Cafe", addr:"47 Argyle St, The Rocks NSW 2000, Australia", color:"#e67e22", lat:-33.8593009, lon:151.20847519999998, gm:"https://maps.google.com/"},
+      {name:"Tenacious Bakehouse", cat:"Lunch/Cafe", addr:"101 Oxford St, Darlinghurst NSW 2010, Australia", color:"#e67e22", lat:-33.8792007, lon:151.2146819, gm:"https://maps.google.com/"},
+      {name:"Igniis Bake & Roast", cat:"Lunch/Cafe", addr:"Llankelly Pl, Potts Point NSW 2011, Australia", color:"#e67e22", lat:-33.8727605, lon:151.2242975, gm:"https://maps.google.com/"},
+      {name:"Flour and Stone", cat:"Lunch/Cafe", addr:"53 Riley St, Woolloomooloo NSW 2011, Australia", color:"#e67e22", lat:-33.873560999999995, lon:151.2154123, gm:"https://maps.google.com/"},
+      {name:"Pisa Slice The Rocks", cat:"Lunch/Cafe", addr:"13 Playfair St, The Rocks NSW 2000, Australia", color:"#e67e22", lat:-33.8581523, lon:151.2083218, gm:"https://maps.google.com/"},
+      {name:"BELLA BACiATA - Circular Quay", cat:"Lunch/Cafe", addr:"4 Loftus Ln, Sydney NSW 2000, Australia", color:"#e67e22", lat:-33.8627135, lon:151.21076779999999, gm:"https://maps.google.com/"},
+      {name:"The Baxter Inn", cat:"Drinks", addr:"152/156 Clarence St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8696238, lon:151.2055976, gm:"https://maps.google.com/"},
+      {name:"The Caterpillar Club", cat:"Drinks", addr:"92 Pitt St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8672489, lon:151.2086816, gm:"https://maps.google.com/"},
+      {name:"Centro 86", cat:"Drinks", addr:"86-88 Pitt St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8670107, lon:151.20866429999998, gm:"https://maps.google.com/"},
+      {name:"PS40", cat:"Drinks", addr:"40 King St Enter, 40 Skittle Ln, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8685901, lon:151.20483099999998, gm:"https://maps.google.com/"},
+      {name:"Maybe Sammy", cat:"Drinks", addr:"115 Harrington St, The Rocks NSW 2000, Australia", color:"#00838f", lat:-33.8617706, lon:151.20695949999998, gm:"https://maps.google.com/"},
+      {name:"Since I Left You (SILY)", cat:"Drinks", addr:"338 Kent St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8695932, lon:151.2048254, gm:"https://maps.google.com/"},
+      {name:"Stitch Bar", cat:"Drinks", addr:"61 York St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8674294, lon:151.20566069999998, gm:"https://maps.google.com/"},
+      {name:"The Doss House", cat:"Drinks", addr:"77/79 George St, The Rocks NSW 2000, Australia", color:"#00838f", lat:-33.858775, lon:151.2088611, gm:"https://maps.google.com/"},
+      {name:"Apollonia", cat:"Drinks", addr:"Basement Level/5-7 Young St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8625166, lon:151.2109494, gm:"https://maps.google.com/"},
+      {name:"Double Deuce", cat:"Drinks", addr:"6 Bridge St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8634267, lon:151.2079743, gm:"https://maps.google.com/"},
+      {name:"Cardea Sydney \u2013 Cocktail & Live Music Bar", cat:"Drinks", addr:"Shop 2, T3.01/300 Barangaroo Ave, Barangaroo NSW 2000, Australia", color:"#00838f", lat:-33.8652033, lon:151.2018416, gm:"https://maps.google.com/"},
+      {name:"Vinabar", cat:"Drinks", addr:"G01/332 Kent St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.869492, lon:151.2048404, gm:"https://maps.google.com/"},
+      {name:"The Lobo", cat:"Drinks", addr:"basement lot 1/209 Clarence St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.87, lon:151.20499999999998, gm:"https://maps.google.com/"},
+      {name:"Door Knock", cat:"Drinks", addr:"Basement/70 Pitt St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8661773, lon:151.20892709999998, gm:"https://maps.google.com/"},
+      {name:"Bar 83 at Sydney Tower", cat:"Drinks", addr:"Westfield Sydney, Level 4/108 Market St, Sydney NSW 2000, Australia", color:"#00838f", lat:-33.8704223, lon:151.2089385, gm:"https://maps.google.com/"},
+      {name:"The Oriana Sydney", cat:"Drinks", addr:"Northern end of the Overseas Passenger Terminal, Circular Quay W, The Rocks NSW 2000, Australia", color:"#00838f", lat:-33.8574315, lon:151.2101687, gm:"https://maps.google.com/"},
+      {name:"The Fox Hole", cat:"Drinks", addr:"117 Harrington St, The Rocks NSW 2000, Australia", color:"#00838f", lat:-33.8621714, lon:151.20681879999998, gm:"https://maps.google.com/"},
+      {name:"Fortune of War - Sydney's Oldest Pub", cat:"Drinks", addr:"137 George St, The Rocks NSW 2000, Australia", color:"#00838f", lat:-33.8603744, lon:151.20846559999998, gm:"https://maps.google.com/"}
+    ];
+    places.forEach((p,i)=>{
+      const n=i+1;
+      const html=`<div style="width:24px;height:24px;border-radius:50%;background:${p.color};border:2.5px solid #fff;
+        box-shadow:0 2px 6px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;
+        font:700 11px/1 Arial;color:#fff">${n}</div>`;
+      L.marker([p.lat,p.lon], {icon: L.divIcon({className:'',html,iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map)
+        .bindPopup(`<div class="pin-cat">${p.cat}</div><div class="pin-title">${p.name}</div>
+                    <div class="pin-desc">${p.addr}</div>
+                    <a href="${p.gm}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 12px;background:#4285F4;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600">📍 Open in Google Maps</a>`);
+    });
+  </script>
+</body>
+</html>
