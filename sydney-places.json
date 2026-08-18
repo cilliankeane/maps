@@ -1,0 +1,2042 @@
+{
+  "Meat and Wine Co": {
+    "name": "Meat and Wine Co",
+    "display": "The Meat & Wine Co Sydney CBD Castlereagh St",
+    "addr": "219-223 Castlereagh St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.875427,
+    "lon": 151.2088003,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Bistecca": {
+    "name": "Bistecca",
+    "display": "BISTECCA",
+    "addr": "3 Dalley St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8632981,
+    "lon": 151.2078628,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Cafe Felix": {
+    "name": "Cafe Felix",
+    "display": "Felix Bistro & Brasserie",
+    "addr": "2 Ash St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.866682,
+    "lon": 151.207768,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Elements Bar and Grill": {
+    "name": "Elements Bar and Grill",
+    "display": "Elements Bar and Grill Pyrmont",
+    "addr": "2/3 Harris St, Pyrmont NSW 2009, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8656891,
+    "lon": 151.1910005,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "6Head": {
+    "name": "6Head",
+    "display": "6HEAD Sydney",
+    "addr": "Bay 10 & 11, Campbell\u2019s Stores, 7-27 Circular Quay W, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.856647599999995,
+    "lon": 151.2090994,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Kingsleys": {
+    "name": "Kingsleys",
+    "display": "Kingsleys Australian Steakhouse",
+    "addr": "29a King St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.868877999999995,
+    "lon": 151.20404810000002,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Funkatello": {
+    "name": "Funkatello",
+    "display": "Funkatello",
+    "addr": "80 Stanley St, Darlinghurst NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8756511,
+    "lon": 151.2157255,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Bar Reggio": {
+    "name": "Bar Reggio",
+    "display": "Bar Reggio",
+    "addr": "135 Crown St, Darlinghurst NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8760833,
+    "lon": 151.2157715,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Matteo": {
+    "name": "Matteo",
+    "display": "Matteo Downtown",
+    "addr": "20 Bond St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8644622,
+    "lon": 151.2081264,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Apollo": {
+    "name": "Apollo",
+    "display": "The Apollo Restaurant",
+    "addr": "44 Macleay St, Potts Point NSW 2011, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8708503,
+    "lon": 151.22535779999998,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Pony": {
+    "name": "Pony",
+    "display": "Pony Dining The Rocks",
+    "addr": "Cnr Argyle Street, and, Kendall Ln, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8590136,
+    "lon": 151.20845359999998,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Woodcut": {
+    "name": "Woodcut",
+    "display": "Woodcut",
+    "addr": "Level 1/1 Barangaroo Ave, Barangaroo NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.862679799999995,
+    "lon": 151.2011949,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Bar Luca": {
+    "name": "Bar Luca",
+    "display": "Bar Luca",
+    "addr": "52 Phillip St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.863968,
+    "lon": 151.21193399999999,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Fabbrica": {
+    "name": "Fabbrica",
+    "display": "Fabbrica Pasta Shop CBD",
+    "addr": "161 King St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8692083,
+    "lon": 151.21006599999998,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "The Gidley": {
+    "name": "The Gidley",
+    "display": "The Gidley",
+    "addr": "Basement/161 King St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8692214,
+    "lon": 151.21015549999998,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Mr Wong": {
+    "name": "Mr Wong",
+    "display": "Mr. Wong",
+    "addr": "3 Bridge Ln, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8640567,
+    "lon": 151.20785210000003,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Alegra": {
+    "name": "Alegra",
+    "display": "ALEGRA",
+    "addr": "Unit 2.16/22-36 Mountain St, Ultimo NSW 2007, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.882487999999995,
+    "lon": 151.196397,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Clam Bar": {
+    "name": "Clam Bar",
+    "display": "Clam Bar",
+    "addr": "44 Bridge St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8632044,
+    "lon": 151.2109731,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Elliott's": {
+    "name": "Elliott's",
+    "display": "Elliott's",
+    "addr": "79 Elliott St, Balmain NSW 2041, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.856355799999996,
+    "lon": 151.1724999,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Lavendra Indian": {
+    "name": "Lavendra Indian",
+    "display": "Lavendra Indian",
+    "addr": "5 Walker St, Lavender Bay NSW 2060, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.843236,
+    "lon": 151.208143,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Neptune's Grotto": {
+    "name": "Neptune's Grotto",
+    "display": "Neptune's Grotto",
+    "addr": "Loftus Lane & Young Street, 44 Bridge St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8632044,
+    "lon": 151.2109731,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Naples (APPIZZA)": {
+    "name": "Naples (APPIZZA)",
+    "display": "Appizza",
+    "addr": "191-195 Oxford St, Darlinghurst NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8809702,
+    "lon": 151.21725229999998,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "The Fenwick": {
+    "name": "The Fenwick",
+    "display": "The Fenwick",
+    "addr": "2-8 Weston St, Balmain East NSW 2041, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8573034,
+    "lon": 151.1957224,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Grace of India": {
+    "name": "Grace of India",
+    "display": "Grace of India Restaurant Sydney",
+    "addr": "16 Ennis Rd, Milsons Point NSW 2061, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.845568799999995,
+    "lon": 151.2123513,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Tommy's Dining": {
+    "name": "Tommy's Dining",
+    "display": "Tommy's Darlinghurst",
+    "addr": "263 Victoria St, Darlinghurst NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8788,
+    "lon": 151.22105969999998,
+    "area": "Dinner",
+    "cat": "Dinner"
+  },
+  "Banksia Bakehouse": {
+    "name": "Banksia Bakehouse",
+    "display": "Banksia Bakehouse",
+    "addr": "225 George St, Tenancy 4 Grosvenor Place, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.862387999999996,
+    "lon": 151.2073333,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Binge Kitchen": {
+    "name": "Binge Kitchen",
+    "display": "Binge Kitchen - Cafe in Sydney",
+    "addr": "4/31 Market St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8711841,
+    "lon": 151.2061132,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Bopp & Tone": {
+    "name": "Bopp & Tone",
+    "display": "Bopp & Tone",
+    "addr": "60 Carrington St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8668185,
+    "lon": 151.2064637,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "The Fenwick Cafe": {
+    "name": "The Fenwick Cafe",
+    "display": "The Fenwick",
+    "addr": "2-8 Weston St, Balmain East NSW 2041, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8573034,
+    "lon": 151.1957224,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Bourke Street Bakery": {
+    "name": "Bourke Street Bakery",
+    "display": "Bourke Street Bakery Surry Hills",
+    "addr": "633 Bourke St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8894017,
+    "lon": 151.2148985,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Cross Section": {
+    "name": "Cross Section",
+    "display": "Cross Section | Darlinghurst",
+    "addr": "84-90 McLachlan Ave, Darlinghurst NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8786501,
+    "lon": 151.22635259999998,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Pi\u00f1a": {
+    "name": "Pi\u00f1a",
+    "display": "PI\u00d1A",
+    "addr": "shop 4/29 Orwell St, Potts Point NSW 2011, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8724136,
+    "lon": 151.2243411,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Kaska": {
+    "name": "Kaska",
+    "display": "KASKA Eatery & Cafe",
+    "addr": "Shop 1/19a Boundary St, Darlinghurst NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.878892799999996,
+    "lon": 151.2248158,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Bar Mammoni": {
+    "name": "Bar Mammoni",
+    "display": "Bar Mammoni Pasta & Deli",
+    "addr": "Shop/2 Loftus Ln, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8626863,
+    "lon": 151.2108475,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "La Renaissance Courtyard Cafe": {
+    "name": "La Renaissance Courtyard Cafe",
+    "display": "La Renaissance Patisserie and Cafe",
+    "addr": "47 Argyle St, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8593009,
+    "lon": 151.20847519999998,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Tenacious": {
+    "name": "Tenacious",
+    "display": "Tenacious Bakehouse",
+    "addr": "101 Oxford St, Darlinghurst NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8792007,
+    "lon": 151.2146819,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Igniis Bake": {
+    "name": "Igniis Bake",
+    "display": "Igniis Bake & Roast",
+    "addr": "Llankelly Pl, Potts Point NSW 2011, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8727605,
+    "lon": 151.2242975,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Flour and Stone": {
+    "name": "Flour and Stone",
+    "display": "Flour and Stone",
+    "addr": "53 Riley St, Woolloomooloo NSW 2011, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.873560999999995,
+    "lon": 151.2154123,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Pisa Slice": {
+    "name": "Pisa Slice",
+    "display": "Pisa Slice The Rocks",
+    "addr": "13 Playfair St, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8581523,
+    "lon": 151.2083218,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Bella Baciata": {
+    "name": "Bella Baciata",
+    "display": "BELLA BACiATA - Circular Quay",
+    "addr": "4 Loftus Ln, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8627135,
+    "lon": 151.21076779999999,
+    "area": "Lunch/cafe",
+    "cat": "Lunch/Cafe"
+  },
+  "Baxter Inn": {
+    "name": "Baxter Inn",
+    "display": "The Baxter Inn",
+    "addr": "152/156 Clarence St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8696238,
+    "lon": 151.2055976,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "The Caterpillar Club": {
+    "name": "The Caterpillar Club",
+    "display": "The Caterpillar Club",
+    "addr": "92 Pitt St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8672489,
+    "lon": 151.2086816,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Centro86": {
+    "name": "Centro86",
+    "display": "Centro 86",
+    "addr": "86-88 Pitt St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8670107,
+    "lon": 151.20866429999998,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "PS40": {
+    "name": "PS40",
+    "display": "PS40",
+    "addr": "40 King St Enter, 40 Skittle Ln, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8685901,
+    "lon": 151.20483099999998,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Maybe Sammy": {
+    "name": "Maybe Sammy",
+    "display": "Maybe Sammy",
+    "addr": "115 Harrington St, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8617706,
+    "lon": 151.20695949999998,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "SILY": {
+    "name": "SILY",
+    "display": "Since I Left You (SILY)",
+    "addr": "338 Kent St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8695932,
+    "lon": 151.2048254,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Stitch Bar": {
+    "name": "Stitch Bar",
+    "display": "Stitch Bar",
+    "addr": "61 York St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8674294,
+    "lon": 151.20566069999998,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Doss House": {
+    "name": "Doss House",
+    "display": "The Doss House",
+    "addr": "77/79 George St, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.858775,
+    "lon": 151.2088611,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Apollonia": {
+    "name": "Apollonia",
+    "display": "Apollonia",
+    "addr": "Basement Level/5-7 Young St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8625166,
+    "lon": 151.2109494,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Double Deuce": {
+    "name": "Double Deuce",
+    "display": "Double Deuce",
+    "addr": "6 Bridge St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8634267,
+    "lon": 151.2079743,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Cardea": {
+    "name": "Cardea",
+    "display": "Cardea Sydney \u2013 Cocktail & Live Music Bar",
+    "addr": "Shop 2, T3.01/300 Barangaroo Ave, Barangaroo NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8652033,
+    "lon": 151.2018416,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Vina Bar": {
+    "name": "Vina Bar",
+    "display": "Vinabar",
+    "addr": "G01/332 Kent St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.869492,
+    "lon": 151.2048404,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "The Lobo": {
+    "name": "The Lobo",
+    "display": "The Lobo",
+    "addr": "basement lot 1/209 Clarence St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.87,
+    "lon": 151.20499999999998,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Door Knock": {
+    "name": "Door Knock",
+    "display": "Door Knock",
+    "addr": "Basement/70 Pitt St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8661773,
+    "lon": 151.20892709999998,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Bar 83": {
+    "name": "Bar 83",
+    "display": "Bar 83 at Sydney Tower",
+    "addr": "Westfield Sydney, Level 4/108 Market St, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8704223,
+    "lon": 151.2089385,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "The Squires Landing": {
+    "name": "The Squires Landing",
+    "display": "The Oriana Sydney",
+    "addr": "Northern end of the Overseas Passenger Terminal, Circular Quay W, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8574315,
+    "lon": 151.2101687,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "The Fox Hole": {
+    "name": "The Fox Hole",
+    "display": "The Fox Hole",
+    "addr": "117 Harrington St, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8621714,
+    "lon": 151.20681879999998,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Fortune of War": {
+    "name": "Fortune of War",
+    "display": "Fortune of War - Sydney's Oldest Pub",
+    "addr": "137 George St, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8603744,
+    "lon": 151.20846559999998,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Shangri La": {
+    "name": "Shangri La",
+    "display": "Shangri-La Sydney",
+    "addr": "176 Cumberland St, The Rocks NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.861171999999996,
+    "lon": 151.2062978,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Palmer and Co": {
+    "name": "Palmer and Co",
+    "display": "Palmer & Co.",
+    "addr": "Abercrombie Ln, Sydney NSW 2000, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.864072,
+    "lon": 151.2081952,
+    "area": "Drinks",
+    "cat": "Drinks"
+  },
+  "Juniper Cafe": {
+    "name": "Juniper Cafe",
+    "display": "Juniper Cafe & Bar Paddington",
+    "addr": "225 Glenmore Rd, Paddington NSW 2021, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8823153,
+    "lon": 151.227978,
+    "area": "Paddington",
+    "cat": "Dinner"
+  },
+  "Padre": {
+    "name": "Padre",
+    "display": "Padre Coffee Paddington",
+    "addr": "241A-241B Glenmore Rd, Paddington NSW 2021, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8822802,
+    "lon": 151.22863189999998,
+    "area": "Paddington",
+    "cat": "Dinner"
+  },
+  "Tequila Mockingbird": {
+    "name": "Tequila Mockingbird",
+    "display": "Tequila Mockingbird",
+    "addr": "6 Heeley St, Paddington NSW 2021, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8825584,
+    "lon": 151.22822499999998,
+    "area": "Paddington",
+    "cat": "Dinner"
+  },
+  "Mary's Hot Pizza": {
+    "name": "Mary's Hot Pizza",
+    "display": "Mary\u2019s Hot Pizza",
+    "addr": "Errol Flynn Blvd, Moore Park NSW 2021, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8941561,
+    "lon": 151.2251943,
+    "area": "Paddington",
+    "cat": "Dinner"
+  },
+  "Paddo Grind": {
+    "name": "Paddo Grind",
+    "display": "Paddington Grind",
+    "addr": "339 Oxford St, Paddington NSW 2021, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8859765,
+    "lon": 151.22848869999999,
+    "area": "Paddington",
+    "cat": "Dinner"
+  },
+  "Adelaide's Kitchen": {
+    "name": "Adelaide's Kitchen",
+    "display": "Adelaide's Kitchen",
+    "addr": "9 Regent St, Paddington NSW 2021, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8864496,
+    "lon": 151.2280982,
+    "area": "Paddington",
+    "cat": "Dinner"
+  },
+  "Chubby Cheeks": {
+    "name": "Chubby Cheeks",
+    "display": "Chubby Cheeks",
+    "addr": "437 Oxford St, Paddington NSW 2021, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8877841,
+    "lon": 151.2308593,
+    "area": "Paddington",
+    "cat": "Dinner"
+  },
+  "Big Dave's": {
+    "name": "Big Dave's",
+    "display": "Big Dave\u2019s Chipper - Restaurant",
+    "addr": "779 Anzac Parade, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.942437999999996,
+    "lon": 151.238972,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Billy's": {
+    "name": "Billy's",
+    "display": "Billy's Bar Espresso",
+    "addr": "Shop 3, Pacific Square, 737 Anzac Parade, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.940698,
+    "lon": 151.2387315,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "South End Hotel": {
+    "name": "South End Hotel",
+    "display": "Southend Hotel Maroubra",
+    "addr": "32 Curtin Cres, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9513369,
+    "lon": 151.25035889999998,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Aree Thai": {
+    "name": "Aree Thai",
+    "display": "Aree Thai Twist",
+    "addr": "Aree Thai Twist, 693 Anzac Parade, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9390314,
+    "lon": 151.2382843,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Eksentrik": {
+    "name": "Eksentrik",
+    "display": "Ek'sentrik Cafe Maroubra",
+    "addr": "765a Anzac Parade, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9420242,
+    "lon": 151.2390619,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Little Me Cafe": {
+    "name": "Little Me Cafe",
+    "display": "Little Me Cafe Maroubra",
+    "addr": "Corner anzac parade and, Garden Ln, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.942283599999996,
+    "lon": 151.239731,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Boulevard Bakery": {
+    "name": "Boulevard Bakery",
+    "display": "Boulevard Bakery",
+    "addr": "924 Anzac Parade, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9427786,
+    "lon": 151.24014,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "La Boulangerie": {
+    "name": "La Boulangerie",
+    "display": "La Boulangerie",
+    "addr": "737 Anzac Parade, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9406496,
+    "lon": 151.23808409999998,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Tradewinds": {
+    "name": "Tradewinds",
+    "display": "Tradewinds",
+    "addr": "3/196-204 Maroubra Rd, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9416611,
+    "lon": 151.24101389999998,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Zebra Cafe": {
+    "name": "Zebra Cafe",
+    "display": "Zeebra Cafe",
+    "addr": "41 McKeon St, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9461781,
+    "lon": 151.25607499999998,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Marini Cafe": {
+    "name": "Marini Cafe",
+    "display": "Marini Cafe",
+    "addr": "57 McKeon St, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.946445,
+    "lon": 151.256466,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Chalk": {
+    "name": "Chalk",
+    "display": "Chalk Espresso Bar",
+    "addr": "45 McKeon St, Maroubra NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9462414,
+    "lon": 151.25614729999998,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Panivore": {
+    "name": "Panivore",
+    "display": "Panivore",
+    "addr": "29 Dalley Ave, Pagewood NSW 2035, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9424928,
+    "lon": 151.215578,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Bourke Street Bakery Banksmeadow": {
+    "name": "Bourke Street Bakery Banksmeadow",
+    "display": "Bourke Street Bakery Banksmeadow",
+    "addr": "18 Anderson St, Banksmeadow NSW 2019, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9468183,
+    "lon": 151.21426449999998,
+    "area": "Maroubra",
+    "cat": "Cafe"
+  },
+  "Sugarcane Thai": {
+    "name": "Sugarcane Thai",
+    "display": "Sugarcane Coogee",
+    "addr": "1/56 Carr St, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9229248,
+    "lon": 151.256565,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "Lox in a Box": {
+    "name": "Lox in a Box",
+    "display": "Lox In A Box Coogee",
+    "addr": "232 Coogee Bay Rd, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9205192,
+    "lon": 151.2554345,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "Little Kitchen": {
+    "name": "Little Kitchen",
+    "display": "The Little Kitchen",
+    "addr": "275 Arden St, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9238486,
+    "lon": 151.25636599999999,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "Melon Head": {
+    "name": "Melon Head",
+    "display": "Melonhead",
+    "addr": "256 Coogee Bay Rd, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.920615999999995,
+    "lon": 151.2561174,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "Johnny Gios": {
+    "name": "Johnny Gios",
+    "display": "Johnny Gio\u2019s Pizza Coogee",
+    "addr": "207A Coogee Bay Rd, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9206655,
+    "lon": 151.254849,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "La Spiaggia": {
+    "name": "La Spiaggia",
+    "display": "La Spiaggia",
+    "addr": "248 Coogee Bay Rd, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9204964,
+    "lon": 151.2559296,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "The Clove": {
+    "name": "The Clove",
+    "display": "The Clove Indian Restaurant",
+    "addr": "100/102 Beach St, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9172303,
+    "lon": 151.2586679,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "Louie": {
+    "name": "Louie",
+    "display": "Louie",
+    "addr": "260 Arden St, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9232022,
+    "lon": 151.2560188,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "Coffee Room": {
+    "name": "Coffee Room",
+    "display": "Coffee Roooom - Coogee",
+    "addr": "256 Arden St, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9230386,
+    "lon": 151.2562059,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "Penelope Bakery": {
+    "name": "Penelope Bakery",
+    "display": "Penelope Bakery and Coffee Roaster",
+    "addr": "180 Coogee Bay Rd, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9201683,
+    "lon": 151.2538156,
+    "area": "Coogee",
+    "cat": "Cafe"
+  },
+  "Shea's": {
+    "name": "Shea's",
+    "display": "Shea\u2019s",
+    "addr": "211 Clovelly Rd, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.911348,
+    "lon": 151.2539497,
+    "area": "Clovelly",
+    "cat": "Cafe"
+  },
+  "Tuga Bakery": {
+    "name": "Tuga Bakery",
+    "display": "Tuga Pastries",
+    "addr": "Shop 6/231 Clovelly Rd, Clovelly NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9115076,
+    "lon": 151.25490109999998,
+    "area": "Clovelly",
+    "cat": "Cafe"
+  },
+  "Meet Me at Clovelly": {
+    "name": "Meet Me at Clovelly",
+    "display": "Meet me at Clovelly",
+    "addr": "344 Clovelly Rd, Clovelly NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.913609799999996,
+    "lon": 151.26450699999998,
+    "area": "Clovelly",
+    "cat": "Cafe"
+  },
+  "Out of the Blue": {
+    "name": "Out of the Blue",
+    "display": "Out Of The Blue Clovelly",
+    "addr": "2/272 Clovelly Rd, Coogee NSW 2034, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.912222199999995,
+    "lon": 151.2583333,
+    "area": "Clovelly",
+    "cat": "Cafe"
+  },
+  "Madame & Ivye's": {
+    "name": "Madame & Ivye's",
+    "display": "Madame & Yves",
+    "addr": "343-345 Clovelly Rd, Clovelly NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9121823,
+    "lon": 151.2596783,
+    "area": "Clovelly",
+    "cat": "Cafe"
+  },
+  "Clo Deli": {
+    "name": "Clo Deli",
+    "display": "Clodeli",
+    "addr": "shop 1/210 Clovelly Rd, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.91157,
+    "lon": 151.25350699999998,
+    "area": "Clovelly",
+    "cat": "Cafe"
+  },
+  "Salty's Bondi": {
+    "name": "Salty's Bondi",
+    "display": "Salty's Bondi",
+    "addr": "108 Campbell Parade, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8914642,
+    "lon": 151.273529,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Rocker": {
+    "name": "Rocker",
+    "display": "Rocker",
+    "addr": "5/39-53 Campbell Parade, North Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.889368399999995,
+    "lon": 151.2837974,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Blackwood Bondi": {
+    "name": "Blackwood Bondi",
+    "display": "Blackwood Bondi",
+    "addr": "Shop 3/87-89 Glenayr Ave, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.885715,
+    "lon": 151.2733503,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Totti's": {
+    "name": "Totti's",
+    "display": "Totti\u2019s",
+    "addr": "283 Bondi Rd, Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8948987,
+    "lon": 151.26878979999998,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Icebergs": {
+    "name": "Icebergs",
+    "display": "Bondi Icebergs Swimming CLUB - The Bergs Bistro",
+    "addr": "1 Notts Ave, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.89508910000001,
+    "lon": 151.2743049,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Elva": {
+    "name": "Elva",
+    "display": "Trattoria Elva",
+    "addr": "277 Bondi Rd, Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8947717,
+    "lon": 151.2682166,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Laurie's": {
+    "name": "Laurie's",
+    "display": "Laurie's Vegetarian",
+    "addr": "286 Bondi Rd, Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.894463099999996,
+    "lon": 151.26788439999999,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Bangkok Bites": {
+    "name": "Bangkok Bites",
+    "display": "Bangkok Bites Newtown",
+    "addr": "273 King St, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8962205,
+    "lon": 151.1801375,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "Bondi Hardware": {
+    "name": "Bondi Hardware",
+    "display": "Bondi Hardware",
+    "addr": "39 Hall St, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8902528,
+    "lon": 151.2728778,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Neighbourhood": {
+    "name": "Neighbourhood",
+    "display": "Neighbourhood by TWT | Sydney, Bondi | Hotel | Apartments | Airbnb",
+    "addr": "59a Oxford St, Bondi Junction NSW 2022, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8914545,
+    "lon": 151.24524399999999,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Lola's": {
+    "name": "Lola's",
+    "display": "Lola's Italian & Bar",
+    "addr": "Level 1/180/186 Campbell Parade, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.889089600000005,
+    "lon": 151.27564999999998,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Don Pedros": {
+    "name": "Don Pedros",
+    "display": "Don Pedros Bondi",
+    "addr": "Level 1/80 Campbell Parade, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8919243,
+    "lon": 151.27297289999998,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Chapter One": {
+    "name": "Chapter One",
+    "display": "Chapter One Caf\u00e9",
+    "addr": "34 Campbell Parade, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8937958,
+    "lon": 151.27285709999998,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Society Pizza": {
+    "name": "Society Pizza",
+    "display": "Society Pizza Bar, Bondi Beach",
+    "addr": "88 - 90 Curlewis St, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.887530000000005,
+    "lon": 151.272552,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Bills": {
+    "name": "Bills",
+    "display": "bills",
+    "addr": "79 Hall St, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8898493,
+    "lon": 151.27205519999998,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Shuk": {
+    "name": "Shuk",
+    "display": "Shuk Bondi",
+    "addr": "2 Mitchell St, North Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8822869,
+    "lon": 151.2768862,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Bobo Bakery": {
+    "name": "Bobo Bakery",
+    "display": "Bobo Bakery (Appointment Only)",
+    "addr": "124 Gardeners Rd, Kingsford NSW 2032, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9253079,
+    "lon": 151.22245949999999,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Mapo Gelato": {
+    "name": "Mapo Gelato",
+    "display": "Mapo Bondi",
+    "addr": "64-66 Campbell Parade, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.892770899999995,
+    "lon": 151.2726815,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "The Depot": {
+    "name": "The Depot",
+    "display": "The Depot",
+    "addr": "132A Warners Ave, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8882974,
+    "lon": 151.2779519,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Up South": {
+    "name": "Up South",
+    "display": "Up South Bondi",
+    "addr": "249 Bondi Rd, Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8946167,
+    "lon": 151.2674749,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Speedo Cafe": {
+    "name": "Speedo Cafe",
+    "display": "Speedos Cafe",
+    "addr": "126 Ramsgate Ave, North Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.890538,
+    "lon": 151.282926,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Ravesis Bar": {
+    "name": "Ravesis Bar",
+    "display": "Hotel Ravesis",
+    "addr": "118 Campbell Parade, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.891238,
+    "lon": 151.27363900000003,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Two Forks": {
+    "name": "Two Forks",
+    "display": "Two Forks Bondi",
+    "addr": "Unit 2/40 Hall St, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.890194099999995,
+    "lon": 151.2720982,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Harry's": {
+    "name": "Harry's",
+    "display": "Hotel Harry",
+    "addr": "40/44 Wentworth Ave, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8785028,
+    "lon": 151.2112,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Porch and Parlour": {
+    "name": "Porch and Parlour",
+    "display": "Porch and Parlour",
+    "addr": "17-18/110 Ramsgate Ave, North Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8895756,
+    "lon": 151.2810958,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Bennett's St Dairy": {
+    "name": "Bennett's St Dairy",
+    "display": "Bennett St Dairy",
+    "addr": "73 Bondi Rd, Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.893554,
+    "lon": 151.2606348,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Pocket": {
+    "name": "Pocket",
+    "display": "Pocket Bondi",
+    "addr": "266 Campbell Parade, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.889609199999995,
+    "lon": 151.281274,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Bills Coffee": {
+    "name": "Bills Coffee",
+    "display": "bills",
+    "addr": "79 Hall St, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8898493,
+    "lon": 151.27205519999998,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Carbon": {
+    "name": "Carbon",
+    "display": "Carbon Mexican Woodfire Restaurant Bondi",
+    "addr": "288 Bondi Rd, Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8944347,
+    "lon": 151.2679619,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Birichina": {
+    "name": "Birichina",
+    "display": "Birichina Cafe",
+    "addr": "Unit 8/10 Lamrock Ave, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8925021,
+    "lon": 151.272773,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Bakery on Glenayr": {
+    "name": "Bakery on Glenayr",
+    "display": "The Bakery on Glenayr",
+    "addr": "98 Glenayr Ave, North Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.885824,
+    "lon": 151.2735617,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Pizza Laundry": {
+    "name": "Pizza Laundry",
+    "display": "Pizza Laundry",
+    "addr": "141 Glenayr Ave, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.88751,
+    "lon": 151.271615,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Arte Bianca": {
+    "name": "Arte Bianca",
+    "display": "Arte Bianca Bondi",
+    "addr": "114 Glenayr Ave, North Bondi NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.886277,
+    "lon": 151.2731441,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Lulu": {
+    "name": "Lulu",
+    "display": "LULU",
+    "addr": "Unit 2/75-79 Hall St, Bondi Beach NSW 2026, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8895899,
+    "lon": 151.2716827,
+    "area": "Bondi",
+    "cat": "Cafe"
+  },
+  "Chilli Home Thai": {
+    "name": "Chilli Home Thai",
+    "display": "Chilli Home Thai",
+    "addr": "76 Spring St, Bondi Junction NSW 2022, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8922771,
+    "lon": 151.2484184,
+    "area": "Bondi Junction",
+    "cat": "Cafe"
+  },
+  "Three Beans Cafe": {
+    "name": "Three Beans Cafe",
+    "display": "Three Beans Bondi Junction",
+    "addr": "Shop 26/91 Spring St, Bondi Junction NSW 2022, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.892858499999996,
+    "lon": 151.2480278,
+    "area": "Bondi Junction",
+    "cat": "Cafe"
+  },
+  "Cafe Capri": {
+    "name": "Cafe Capri",
+    "display": "Cafe Capri Bondi Junction",
+    "addr": "480, outside David jones entry, level 2/500 Oxford St, Bondi Junction NSW 2022, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8914152,
+    "lon": 151.2508154,
+    "area": "Bondi Junction",
+    "cat": "Cafe"
+  },
+  "Gusto Coffee": {
+    "name": "Gusto Coffee",
+    "display": "Gusto Espresso Bar Bondi Junction",
+    "addr": "14/157-165 Oxford St, Bondi Junction NSW 2022, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8923633,
+    "lon": 151.2481664,
+    "area": "Bondi Junction",
+    "cat": "Cafe"
+  },
+  "Baker Bleu": {
+    "name": "Baker Bleu",
+    "display": "Baker Bleu",
+    "addr": "2 Guilfoyle Ave, Double Bay NSW 2028, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.876748,
+    "lon": 151.24132409999999,
+    "area": "Double Bay",
+    "cat": "Bakery"
+  },
+  "22 Grams": {
+    "name": "22 Grams",
+    "display": "22 Grams",
+    "addr": "166/168 Belmore Rd, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9170042,
+    "lon": 151.24069989999998,
+    "area": "Randwick",
+    "cat": "Cafe"
+  },
+  "Mands Indian": {
+    "name": "Mands Indian",
+    "display": "Mand's Indian Restaurant",
+    "addr": "139 Avoca St, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.913050999999996,
+    "lon": 151.24232519999998,
+    "area": "Randwick",
+    "cat": "Cafe"
+  },
+  "Maybe Frank": {
+    "name": "Maybe Frank",
+    "display": "Maybe Frank Randwick",
+    "addr": "69 Perouse Rd, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.920941,
+    "lon": 151.243003,
+    "area": "Randwick",
+    "cat": "Cafe"
+  },
+  "Wing Boy": {
+    "name": "Wing Boy",
+    "display": "Wingboy Randwick",
+    "addr": "The Spot/51 Perouse Rd, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9198871,
+    "lon": 151.2429295,
+    "area": "Randwick",
+    "cat": "Cafe"
+  },
+  "The Laundrette": {
+    "name": "The Laundrette",
+    "display": "Wash & Dry Laundromat Randwick",
+    "addr": "Shop 1/144-146 Barker St, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9209053,
+    "lon": 151.2363691,
+    "area": "Randwick",
+    "cat": "Cafe"
+  },
+  "Page 2": {
+    "name": "Page 2",
+    "display": "Page Two",
+    "addr": "122 Belmore Rd, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9158036,
+    "lon": 151.2405212,
+    "area": "Randwick",
+    "cat": "Cafe"
+  },
+  "Del Punto": {
+    "name": "Del Punto",
+    "display": "Del Punto",
+    "addr": "40 St Pauls St, Randwick NSW 2031, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9204334,
+    "lon": 151.24330799999998,
+    "area": "Randwick",
+    "cat": "Cafe"
+  },
+  "Tio's": {
+    "name": "Tio's",
+    "display": "Tio's Cerveceria",
+    "addr": "4/14 Foster St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8796639,
+    "lon": 151.21043440000003,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "The Butler": {
+    "name": "The Butler",
+    "display": "The Butler",
+    "addr": "123 Victoria St, Potts Point NSW 2011, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.871688,
+    "lon": 151.22268,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Single O": {
+    "name": "Single O",
+    "display": "Single O Surry Hills",
+    "addr": "60/64 Reservoir St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8810973,
+    "lon": 151.2096465,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Reuben Hills": {
+    "name": "Reuben Hills",
+    "display": "Reuben Hills",
+    "addr": "61 Albion St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.882877799999996,
+    "lon": 151.21102779999998,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Dang": {
+    "name": "Dang",
+    "display": "Ding Dong Dang",
+    "addr": "7 Randle St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8849766,
+    "lon": 151.2078579,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Kwila": {
+    "name": "Kwila",
+    "display": "KWILA",
+    "addr": "7/46-54 Foster St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8806952,
+    "lon": 151.20955229999998,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Three Williams Cafe": {
+    "name": "Three Williams Cafe",
+    "display": "Three Williams Cafe",
+    "addr": "613A Elizabeth St, Redfern NSW 2016, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.891788,
+    "lon": 151.2073388,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "AP House": {
+    "name": "AP House",
+    "display": "A.P House (A.P Bakery)",
+    "addr": "L2/80 Commonwealth St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8793612,
+    "lon": 151.21105649999998,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Don't Tell Aunty": {
+    "name": "Don't Tell Aunty",
+    "display": "Don't Tell Aunty",
+    "addr": "414 Bourke Street, Entrance From, Fitzroy St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.885114,
+    "lon": 151.2159959,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Vasco": {
+    "name": "Vasco",
+    "display": "Vasco Surry Hills",
+    "addr": "421 Cleveland St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8917877,
+    "lon": 151.2136191,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Vacanza": {
+    "name": "Vacanza",
+    "display": "Vacanza Pizzeria Surry Hills",
+    "addr": "414 Bourke St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8850846,
+    "lon": 151.21584339999998,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Masala Theory": {
+    "name": "Masala Theory",
+    "display": "Masala Theory - Surry Hills",
+    "addr": "545 Crown St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8902523,
+    "lon": 151.2128055,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Armorica": {
+    "name": "Armorica",
+    "display": "Armorica Grande Brasserie",
+    "addr": "Shop 1 & 2/490 Crown St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8868562,
+    "lon": 151.21381069999998,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Tonton Bread": {
+    "name": "Tonton Bread",
+    "display": "Tonton Bread",
+    "addr": "100 Fitzroy St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8855747,
+    "lon": 151.21701389999998,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Humble Bakery": {
+    "name": "Humble Bakery",
+    "display": "Humble Bakery - Surry Hills",
+    "addr": "Shop 2/50 Holt St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8863238,
+    "lon": 151.20956999999999,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Giuls": {
+    "name": "Giuls",
+    "display": "Giuls",
+    "addr": "Shop 1/515 Crown St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8891917,
+    "lon": 151.2130062,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Beyond the Bookcase": {
+    "name": "Beyond the Bookcase",
+    "display": "Beyond The Bookcase",
+    "addr": "501 Elizabeth St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8878775,
+    "lon": 151.207925,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Cicerone": {
+    "name": "Cicerone",
+    "display": "Cicerone ~ Cucina Romana",
+    "addr": "417 Bourke St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8822968,
+    "lon": 151.2160865,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Bessie's and Alma": {
+    "name": "Bessie's and Alma",
+    "display": "Bessie's & Alma's",
+    "addr": "111-115 Albion St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8834095,
+    "lon": 151.2125193,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Paramount": {
+    "name": "Paramount",
+    "display": "Paramount Coffee Project",
+    "addr": "80 Commonwealth St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8793807,
+    "lon": 151.2111141,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Sydney Cakery": {
+    "name": "Sydney Cakery",
+    "display": "Sydney Cakery",
+    "addr": "Suite 1/242 Elizabeth St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8812889,
+    "lon": 151.20906109999999,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Pan Divino": {
+    "name": "Pan Divino",
+    "display": "Pan Divino",
+    "addr": "560 Crown St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.888729,
+    "lon": 151.2134831,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Lode Pies": {
+    "name": "Lode Pies",
+    "display": "Lode Pies & Pastries Surry Hills",
+    "addr": "487 Crown St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8881521,
+    "lon": 151.21323909999998,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Porteno": {
+    "name": "Porteno",
+    "display": "Porte\u00f1o",
+    "addr": "50 Holt St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8863627,
+    "lon": 151.2093471,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Bascino Espresso": {
+    "name": "Bascino Espresso",
+    "display": "Bacino Espresso Surry hills",
+    "addr": "415 Crown St, Surry Hills NSW 2010, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.886291,
+    "lon": 151.21355789999998,
+    "area": "Surry Hills",
+    "cat": "Cafe"
+  },
+  "Locale": {
+    "name": "Locale",
+    "display": "Locale Bronte",
+    "addr": "127 Macpherson St, Bronte NSW 2024, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9062923,
+    "lon": 151.26323159999998,
+    "area": "Bronte",
+    "cat": "Cafe"
+  },
+  "The Coop": {
+    "name": "The Coop",
+    "display": "Coop Bronte",
+    "addr": "465 Bronte Rd, Bronte NSW 2024, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9047193,
+    "lon": 151.2666174,
+    "area": "Bronte",
+    "cat": "Cafe"
+  },
+  "Vacanza Pizza": {
+    "name": "Vacanza Pizza",
+    "display": "Vacanza Pizzeria Bronte Road",
+    "addr": "261 Bronte Rd, Waverley NSW 2024, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9018963,
+    "lon": 151.2543732,
+    "area": "Bronte",
+    "cat": "Cafe"
+  },
+  "Walrus": {
+    "name": "Walrus",
+    "display": "The Walrus Waverley",
+    "addr": "29 Albion St, Waverley NSW 2024, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9031093,
+    "lon": 151.25474839999998,
+    "area": "Bronte",
+    "cat": "Cafe"
+  },
+  "Iggy's Pastries": {
+    "name": "Iggy's Pastries",
+    "display": "Iggy's Bread",
+    "addr": "131 Macpherson St, Bronte NSW 2024, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9062035,
+    "lon": 151.2633809,
+    "area": "Bronte",
+    "cat": "Cafe"
+  },
+  "Butter Boy Bake": {
+    "name": "Butter Boy Bake",
+    "display": "Butterboy - Manly",
+    "addr": "Shop 9/74-78 The Corso Ground Level, Level 1/74-78 The Corso, Manly NSW 2095, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.7978318,
+    "lon": 151.2871404,
+    "area": "Manly",
+    "cat": "Cafe"
+  },
+  "Norma's Deli": {
+    "name": "Norma's Deli",
+    "display": "Norma's Deli",
+    "addr": "74-78 The Corso, Manly NSW 2095, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.797935599999995,
+    "lon": 151.2873354,
+    "area": "Manly",
+    "cat": "Cafe"
+  },
+  "Rollers": {
+    "name": "Rollers",
+    "display": "Rollers Bakehouse",
+    "addr": "19 Rialto Ln, Manly NSW 2095, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.7979455,
+    "lon": 151.2876025,
+    "area": "Manly",
+    "cat": "Cafe"
+  },
+  "Anita's": {
+    "name": "Anita's",
+    "display": "Anita Gelato Manly",
+    "addr": "46-48 The Corso, Manly NSW 2095, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.7982231,
+    "lon": 151.28646380000004,
+    "area": "Manly",
+    "cat": "Cafe"
+  },
+  "Banco": {
+    "name": "Banco",
+    "display": "Banco Manly",
+    "addr": "17b Whistler St, Manly NSW 2095, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.796223100000006,
+    "lon": 151.2856013,
+    "area": "Manly",
+    "cat": "Cafe"
+  },
+  "Pizza Pocket": {
+    "name": "Pizza Pocket",
+    "display": "Pocket Pizza Manly",
+    "addr": "46 Pittwater Rd, Manly NSW 2095, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.7943619,
+    "lon": 151.2854243,
+    "area": "Manly",
+    "cat": "Cafe"
+  },
+  "Plus 2": {
+    "name": "Plus 2",
+    "display": "Plus Two Coffee Mascot",
+    "addr": "In front of Woolworths, Kiosk 1/6 Etherden Walk, Mascot NSW 2020, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9229324,
+    "lon": 151.1859351,
+    "area": "Mascot",
+    "cat": "Bakery"
+  },
+  "Miss Sina": {
+    "name": "Miss Sina",
+    "display": "Miss Sina",
+    "addr": "496 Marrickville Rd, Dulwich Hill NSW 2203, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.905237299999996,
+    "lon": 151.1440484,
+    "area": "Marrickville",
+    "cat": "Cafe"
+  },
+  "Brickfields": {
+    "name": "Brickfields",
+    "display": "Brickfields Marrickville",
+    "addr": "2 Sydney St, Marrickville NSW 2204, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9113755,
+    "lon": 151.16415659999998,
+    "area": "Marrickville",
+    "cat": "Cafe"
+  },
+  "Oe Oe Tapas": {
+    "name": "Oe Oe Tapas",
+    "display": "O\u00e9 O\u00e9 Paellas & Tapas",
+    "addr": "110 Addison Rd, Marrickville NSW 2204, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9025712,
+    "lon": 151.16356,
+    "area": "Marrickville",
+    "cat": "Cafe"
+  },
+  "The Henson": {
+    "name": "The Henson",
+    "display": "Henson Park Hotel",
+    "addr": "91 Illawarra Rd, Marrickville NSW 2204, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9051572,
+    "lon": 151.16132610000003,
+    "area": "Marrickville",
+    "cat": "Cafe"
+  },
+  "Slice Shoppe": {
+    "name": "Slice Shoppe",
+    "display": "MMC Slice Shoppe",
+    "addr": "65 Addison Rd, Marrickville NSW 2204, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9028832,
+    "lon": 151.16569389999998,
+    "area": "Marrickville",
+    "cat": "Cafe"
+  },
+  "Shadow Baking": {
+    "name": "Shadow Baking",
+    "display": "Shadow Baking - Marrickville",
+    "addr": "1 Rich St, Marrickville NSW 2204, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9059051,
+    "lon": 151.1650355,
+    "area": "Marrickville",
+    "cat": "Cafe"
+  },
+  "Berta's Deli": {
+    "name": "Berta's Deli",
+    "display": "Bertas",
+    "addr": "100B Sydenham Rd, Marrickville NSW 2204, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9097177,
+    "lon": 151.1619383,
+    "area": "Marrickville",
+    "cat": "Cafe"
+  },
+  "Angus": {
+    "name": "Angus",
+    "display": "Angus",
+    "addr": "69 Meeks Rd, Marrickville NSW 2204, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9121775,
+    "lon": 151.1610292,
+    "area": "Marrickville",
+    "cat": "Cafe"
+  },
+  "The Boat Shed": {
+    "name": "The Boat Shed",
+    "display": "The Boatshed La Perouse",
+    "addr": "1609 Anzac Parade, La Perouse NSW 2036, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.987707799999995,
+    "lon": 151.2312301,
+    "area": "La Perouse",
+    "cat": "Dinner"
+  },
+  "Breadfern": {
+    "name": "Breadfern",
+    "display": "Breadfern Bakery",
+    "addr": "306-308 Chalmers St, Redfern NSW 2016, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8929085,
+    "lon": 151.20558599999998,
+    "area": "Redfern",
+    "cat": "Cafe"
+  },
+  "Coffee Factory": {
+    "name": "Coffee Factory",
+    "display": "The Grounds Coffee Factory",
+    "addr": "Bay, 4a/2 Locomotive St, Eveleigh NSW 2015, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8946821,
+    "lon": 151.1961455,
+    "area": "Redfern",
+    "cat": "Cafe"
+  },
+  "Vitelli's": {
+    "name": "Vitelli's",
+    "display": "Vitelli's Upstairs",
+    "addr": "Corner of Cleveland &, Baptist St, Redfern NSW 2011, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8916592,
+    "lon": 151.2123993,
+    "area": "Redfern",
+    "cat": "Cafe"
+  },
+  "Bar Biscotti": {
+    "name": "Bar Biscotti",
+    "display": "Bar Biscotti",
+    "addr": "24 George St, North Strathfield NSW 2137, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8630426,
+    "lon": 151.0880118,
+    "area": "North Strathfield",
+    "cat": "Cafe"
+  },
+  "Queens Pastry House": {
+    "name": "Queens Pastry House",
+    "display": "Queens Pastri House",
+    "addr": "29/31 Campbell St, Ramsgate NSW 2217, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9841997,
+    "lon": 151.137328,
+    "area": "Ramsgate",
+    "cat": "Bakery"
+  },
+  "Rosso Antico": {
+    "name": "Rosso Antico",
+    "display": "Rosso Antico Pizza Bar",
+    "addr": "2/52-60 Enmore Rd, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8986781,
+    "lon": 151.176188,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "Casa Mia": {
+    "name": "Casa Mia",
+    "display": "Casa Mia Osteria",
+    "addr": "9/605 King St, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9061467,
+    "lon": 151.18094689999998,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "La Favola": {
+    "name": "La Favola",
+    "display": "La Favola - Authentic Italian Newtown",
+    "addr": "170 King St, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.894041,
+    "lon": 151.18302269999998,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "Macelleria": {
+    "name": "Macelleria",
+    "display": "Macelleria Newtown",
+    "addr": "73-75 Enmore Rd, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8984672,
+    "lon": 151.1751574,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "Sweet Lu": {
+    "name": "Sweet Lu",
+    "display": "Sweet Lu Newtown -Coffee&Brunch",
+    "addr": "280 King St, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.896256799999996,
+    "lon": 151.1807206,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "Delhi O Delhi": {
+    "name": "Delhi O Delhi",
+    "display": "Delhi 'O' Delhi Indian Restaurant",
+    "addr": "3 Erskineville Rd, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8972877,
+    "lon": 151.18062039999998,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "Art of Spices": {
+    "name": "Art of Spices",
+    "display": "Art of Spices",
+    "addr": "89 Enmore Rd, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.898522,
+    "lon": 151.1745838,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "Famelia": {
+    "name": "Famelia",
+    "display": "Famelia",
+    "addr": "55 Enmore Rd, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.8984453,
+    "lon": 151.1760861,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "El Patron": {
+    "name": "El Patron",
+    "display": "EL Patron Tacos",
+    "addr": "337 King St, Newtown NSW 2042, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.898208,
+    "lon": 151.1781699,
+    "area": "Newtown",
+    "cat": "Dinner"
+  },
+  "The Cannery": {
+    "name": "The Cannery",
+    "display": "The Cannery Rosebery",
+    "addr": "61 Mentmore Ave, Rosebery NSW 2018, Australia",
+    "mapsUri": "https://maps.google.com/",
+    "lat": -33.9168999,
+    "lon": 151.2025682,
+    "area": "Rosebery",
+    "cat": "Cafe"
+  }
+}

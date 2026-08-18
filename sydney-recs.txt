@@ -1,0 +1,280 @@
+# Sydney food recs from Cillian (16 Aug 2026)
+# Format: neighbourhood | category | name | note(/✅)
+# Categories per area: Dinner, Lunch/cafe, Drinks, plus area-specific ones
+
+[Dinner]
+Meat and Wine Co
+Bistecca
+Cafe Felix
+Elements Bar and Grill
+6Head
+Kingsleys
+Funkatello
+Bar Reggio
+Matteo
+Apollo
+Pony
+Woodcut
+Bar Luca
+Fabbrica
+The Gidley
+Mr Wong
+Alegra
+Clam Bar
+Elliott's
+Lavendra Indian
+Neptune's Grotto
+Naples (APPIZZA)
+The Fenwick
+Grace of India
+Tommy's Dining
+
+[Lunch/cafe]
+Banksia Bakehouse
+Binge Kitchen
+Bopp & Tone
+The Fenwick Cafe
+Bourke Street Bakery
+Cross Section
+Piña
+Kaska
+Bar Mammoni
+La Renaissance Courtyard Cafe
+Tenacious
+Igniis Bake
+Flour and Stone
+Pisa Slice
+Bella Baciata
+
+[Drinks]
+Baxter Inn
+The Caterpillar Club
+Centro86
+PS40
+Maybe Sammy
+SILY
+Stitch Bar
+Doss House
+Apollonia
+Double Deuce
+Cardea
+Vina Bar
+The Lobo
+Door Knock
+Bar 83
+The Squires Landing
+The Fox Hole
+Fortune of War
+Shangri La
+Palmer and Co
+
+# --- Neighbourhood areas ---
+[Paddington]
+Juniper Cafe
+Padre
+Tequila Mockingbird
+Mary's Hot Pizza
+Paddo Grind
+Adelaide's Kitchen
+Chubby Cheeks
+
+[Maroubra]
+Big Dave's
+Billy's
+South End Hotel
+Aree Thai
+Eksentrik
+Little Me Cafe
+Boulevard Bakery
+La Boulangerie
+Tradewinds
+Zebra Cafe
+Marini Cafe
+Chalk
+Panivore
+Bourke Street Bakery Banksmeadow
+
+[Coogee]
+Sugarcane Thai
+Lox in a Box
+Little Kitchen
+Melon Head
+Johnny Gios
+La Spiaggia
+The Clove
+Louie
+Coffee Room
+Penelope Bakery
+
+[Clovelly]
+Shea's
+Tuga Bakery
+Meet Me at Clovelly
+Out of the Blue
+Madame & Ivye's
+Clo Deli
+
+[Bondi]
+Salty's Bondi
+Rocker
+Blackwood Bondi
+Totti's
+Icebergs
+Elva
+Laurie's
+Bangkok Bites
+Bondi Hardware
+Neighbourhood
+Lola's
+Don Pedros
+Chapter One
+Society Pizza
+Bills
+Shuk
+Bobo Bakery
+Mapo Gelato
+The Depot
+Up South
+Speedo Cafe
+Ravesis Bar
+Two Forks
+Harry's
+Porch and Parlour
+Bennett's St Dairy
+Pocket
+Bills Coffee
+Carbon
+Birichina
+Bakery on Glenayr
+Pizza Laundry
+Arte Bianca
+Lulu
+
+[Bondi Junction]
+Chilli Home Thai
+Three Beans Cafe
+Cafe Capri
+Gusto Coffee
+
+[Double Bay]
+Baker Bleu
+
+[Randwick]
+22 Grams
+Mands Indian
+Maybe Frank
+Wing Boy
+The Laundrette
+Page 2
+Del Punto
+
+[Surry Hills]
+Harry's
+Tio's
+The Butler
+Single O
+Reuben Hills
+Dang
+Kwila
+Three Williams Cafe
+AP House
+Don't Tell Aunty
+Vasco
+Vacanza
+Masala Theory
+Armorica
+Tonton Bread
+Humble Bakery
+Giuls
+Beyond the Bookcase
+Cicerone
+Bessie's and Alma
+Paramount
+Sydney Cakery
+Pan Divino
+Lode Pies
+Porteno
+Bascino Espresso
+
+[Bronte]
+Locale
+The Coop
+Vacanza Pizza
+Walrus
+Iggy's Pastries
+
+[Manly]
+Butter Boy Bake
+Norma's Deli
+Rollers
+Anita's
+Banco
+Pizza Pocket
+
+[Mascot]
+Plus 2
+
+[Marrickville]
+Miss Sina
+Brickfields
+Oe Oe Tapas
+The Henson
+Slice Shoppe
+Shadow Baking
+Berta's Deli
+Angus
+
+[La Perouse]
+The Boat Shed
+
+[Redfern]
+Breadfern
+Coffee Factory
+Vitelli's
+
+[North Strathfield]
+Bar Biscotti
+
+[Ramsgate]
+Queens Pastry House
+
+[Newtown]
+Rosso Antico
+Casa Mia
+La Favola
+Bangkok Bites
+Macelleria
+Sweet Lu
+Delhi O Delhi
+Art of Spices
+Famelia
+El Patron
+Pizza Bros
+Tonton Bread Newtown
+
+[Rosebery]
+The Cannery
+Two Fives Cafe
+
+[Alexandria]
+The Copper Mill
+Bohaus Cafe
+The Place Next Door
+Taste Texture
+
+[Caringbah]
+Flour
+
+[Wollongong]
+Uncle George's
+
+[Brighton]
+Bay Vista
+
+[Botany]
+Croquembouch Patisserie
+
+[Inner West]
+Locantro Bakery
+Ard Bakery
+Scroll Boi
