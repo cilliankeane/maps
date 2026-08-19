@@ -1,1 +1,6 @@
 __pycache__/
+
+# throwaway
+*.log
+sydney-places.json.bak
+sydney-places.json.pre-backfill
