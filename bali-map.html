@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bali Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+html,body{margin:0;padding:0;height:100%;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif}#map{position:absolute;inset:0}.pin-title{font-weight:700}.pin-cat{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.5px}.pin-desc{color:#555;font-size:12px;margin-top:3px}.back{position:absolute;z-index:1000;top:10px;left:10px;background:#fff;border-radius:20px;padding:8px 14px;font-size:13px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.25);text-decoration:none;color:#333}.legend{position:absolute;z-index:999;bottom:18px;left:10px;background:rgba(255,255,255,.95);border-radius:8px;padding:10px 12px;box-shadow:0 2px 10px rgba(0,0,0,.25);font-size:12px;max-width:260px;line-height:1.7;max-height:52vh;overflow:auto}.legend b{display:block;margin-bottom:4px;font-size:12.5px}.legend .dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:middle;border:1px solid rgba(0,0,0,.15)}
+</style></head>
+<body>
+<div id="map"></div><a class="back" href="index.html">← All cities</a>
+<div class="legend"><b>Bali</b>
+<span><span class="dot" style="background:#e67e22"></span>Coffee / breakfast</span><br><span><span class="dot" style="background:#1565c0"></span>Lunch / dinner</span><br><span><span class="dot" style="background:#8e24aa"></span>Treats / drinks</span><br><span><span class="dot" style="background:#d32f2f"></span>Activity</span><br><span><span class="dot" style="background:#00838f"></span>General / gym</span></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const areas={Ubud:[-8.5069,115.2625],Amed:[-8.345,115.631],'Gili T':[-8.350,116.043],'Nusa Penida':[-8.727,115.544],'Nusa Ceningan':[-8.704,115.435],'Nusa Lembongan':[-8.678,115.451],Sanur:[-8.691,115.263],Uluwatu:[-8.829,115.084],Seminyak:[-8.691,115.168],Canggu:[-8.647,115.138]};
+const colours={coffee:'#e67e22',food:'#1565c0',treat:'#8e24aa',activity:'#d32f2f',general:'#00838f'};
+const rows=`
+Canggu|coffee|Copenhagen (cafe)
+Canggu|coffee|The Machinery
+Canggu|coffee|The Common
+Canggu|coffee|Rise and Shine
+Canggu|coffee|Revolver Coffee
+Canggu|coffee|Crate Coffee
+Canggu|coffee|Mr Egg
+Canggu|coffee|Coffee Cartel
+Canggu|food|Tribal
+Canggu|coffee|Fold
+Canggu|coffee|Touché
+Canggu|food|Milk and Madu
+Canggu|coffee|Doppio Cafe
+Canggu|coffee|7am Bakery
+Canggu|coffee|Kynd Cafe
+Canggu|coffee|Butterman
+Canggu|coffee|Little Engine
+Canggu|food|La Brisa
+Canggu|food|Penny Lane
+Canggu|food|The Lawn
+Canggu|food|Lola's Cantina Mexicana
+Canggu|food|Pasta Dealers
+Canggu|food|Ji Restaurant
+Canggu|food|Santorini
+Canggu|food|Synkonah
+Canggu|food|Pasta Bar
+Canggu|food|Warung Local
+Canggu|food|Boy N Cow
+Canggu|treat|Lulu Cookies
+Canggu|treat|Dough Lab
+Canggu|treat|Sinamon
+Canggu|treat|Dang Cookies
+Canggu|general|Colours Nails
+Canggu|general|AU Nails
+Canggu|general|Play Room Sports Bar
+Canggu|general|The Mailroom Speakeasy
+Canggu|activity|Potato Head Seminyak
+Canggu|activity|Alternative Beach Club
+Canggu|activity|Finns Beach Club
+Canggu|activity|Wanderlust CrossFit
+Canggu|activity|Axum Beach Club
+Canggu|activity|Atlas Beach Fest
+Canggu|activity|Blacklist Coffee Roaster
+Canggu|general|Imagine Avenue Shop
+Canggu|general|Skate Element
+Canggu|activity|Paddle
+Canggu|general|Love Anchor
+Nusa Penida|coffee|Orion Bakery
+Nusa Penida|food|Wyn's Penida
+Nusa Penida|food|Sunny Penida
+Nusa Penida|food|Kelapa Penida
+Nusa Penida|treat|Sugar Daddy Gelato
+Nusa Penida|food|Secret Penida
+Nusa Penida|food|Penida Colada
+Nusa Penida|food|Coco Penida Restaurant
+Nusa Penida|food|Virgin Beach Restaurant
+Nusa Penida|food|Street Food
+Nusa Penida|food|Father Field Bistro
+Nusa Penida|coffee|Patio Penida
+Nusa Penida|activity|Kelingking Beach
+Nusa Penida|activity|Diamond Beach
+Nusa Penida|activity|Thousand Island View
+Nusa Penida|activity|Rumah Pohon Treehouse
+Nusa Penida|activity|Crystal Bay
+Nusa Penida|activity|Broken Bridge
+Nusa Penida|activity|Angels Billabong
+Nusa Penida|activity|Amok Sunset
+Nusa Penida|activity|Manta Point
+Nusa Penida|activity|Atuh Beach
+Nusa Penida|activity|Manta Ray Snorkelling
+Nusa Ceningan|food|Sea Breeze
+Nusa Ceningan|activity|Klyf Club
+Nusa Ceningan|activity|Secret Point Beach
+Nusa Ceningan|activity|Le Pirate
+Nusa Ceningan|activity|Mahana Point
+Nusa Ceningan|activity|Cloudland Bar
+Nusa Lembongan|food|Thai Pantry
+Nusa Lembongan|food|La Bianca
+Nusa Lembongan|food|Ohanas
+Nusa Lembongan|coffee|B'Fresh
+Nusa Lembongan|coffee|Ombak Zero Waste
+Nusa Lembongan|food|Curry Traders
+Nusa Lembongan|coffee|The Deck Cafe
+Nusa Lembongan|food|Hai Bar and Grill
+Nusa Lembongan|coffee|Bali Eco Deli
+Nusa Lembongan|treat|Cookie Cafe and Warung
+Nusa Lembongan|food|Alponte Italian
+Nusa Lembongan|coffee|Mushroom Espresso
+Nusa Lembongan|activity|Floating Bar
+Nusa Lembongan|activity|Devils Tear
+Nusa Lembongan|activity|Dream Beach
+Nusa Lembongan|activity|Mushroom Beach
+Sanur|food|Kedai Roppongi
+Sanur|food|Soul on the Beach
+Sanur|activity|Mertasari Beach
+Sanur|food|Sanur Night Market
+Ubud|food|Milk & Madu Cafe
+Ubud|food|Simply Social
+Ubud|coffee|Daily Baguette
+Ubud|coffee|Blend Cafe
+Ubud|coffee|Keliki Coffee
+Ubud|coffee|Sunny Coffee
+Ubud|coffee|Suka Espresso
+Ubud|coffee|Sananda Cafe
+Ubud|food|Warung Puspas
+Ubud|food|Pesonas Lounge
+Ubud|food|Baba Bistro
+Ubud|treat|Sinamon
+Ubud|food|Warung Lokal
+Ubud|food|Warung Biah Biah
+Ubud|food|Warung Healthy
+Ubud|activity|Ubud Monkey Forest
+Ubud|activity|Kanto Lampo Waterfall
+Ubud|activity|Udaya Resorts and Spa
+Ubud|activity|Tegallalang Rice Terraces
+Ubud|activity|Tegenungan Waterfall
+Ubud|activity|Aloha Ubud Swing
+Ubud|activity|Coffee Plantation
+Ubud|activity|Suwat Waterfall
+Ubud|activity|Goa Rang Reng
+Ubud|activity|Taman Sari
+Ubud|activity|Tibumana
+Ubud|activity|Cretya
+Ubud|activity|CrossFit Ubud
+Ubud|activity|Karsa Spa
+Ubud|activity|Mount Batur Trek
+Ubud|activity|Tirta Empul Temple
+Ubud|activity|Sidemen Silver
+Ubud|coffee|Kopi Tetanga Coffee
+Ubud|activity|Padi Fair Rice Fields
+Ubud|activity|The Yoga Barn
+Ubud|general|Massas Fitness Centre
+Gili T|coffee|Coffee and Thyme
+Gili T|coffee|Hello Capitano
+Gili T|coffee|Kayu Cafe
+Gili T|coffee|Coco Cafe
+Gili T|general|Tír na nóg Irish Bar
+Gili T|general|PinkCoco
+Gili T|activity|Beach Cinema at Ashton Resort
+Gili T|activity|Turtle Point Snorkelling
+Gili T|activity|Gili Meno Statues Snorkel
+Gili T|activity|Baby Turtles
+Gili T|general|Total Body Fit Gym
+Gili T|activity|Boat Tour
+Gili T|food|Horizontal Bar
+Gili T|activity|Skinny Dip Beach Club
+Gili T|food|Samadhi Living
+Gili T|food|Persona Lounge
+Gili T|food|Tiki Grove
+Gili T|food|Francesco's Pizza
+Gili T|food|Pasta Pojok
+Gili T|food|Fat Cats
+Gili T|food|The Banyan Tree
+Gili T|general|Sunset Point
+Gili T|general|Joss Shot
+Uluwatu|coffee|Nourish
+Uluwatu|coffee|Suka Espresso
+Uluwatu|coffee|The Bakery
+Uluwatu|coffee|Tara Belle
+Uluwatu|coffee|Bulls Coffee
+Uluwatu|food|Black Rose Resto
+Uluwatu|coffee|Ours
+Uluwatu|coffee|Three Steps Coffee
+Uluwatu|food|Warung Ganesha
+Uluwatu|food|Warung Local
+Uluwatu|activity|Cattamaran Beach Club
+Uluwatu|activity|Nyang Nyang Beach
+Uluwatu|activity|Palimilla Beach Club
+Uluwatu|activity|Sundays Beach Club
+Uluwatu|activity|Dreamland Beach
+Uluwatu|general|Bambu Fitness Gym
+Uluwatu|activity|The Space Bali
+Uluwatu|activity|Traditional Dance
+Uluwatu|activity|Pantai Banti Barrack
+Uluwatu|activity|Pandawa Beach
+Uluwatu|food|Warung Kelly
+Uluwatu|food|Mana
+Uluwatu|food|D'Alvie
+Uluwatu|food|Lucky Fish Lounge
+Uluwatu|food|Divino by Casa Asia
+Uluwatu|food|Rolling Fork
+Uluwatu|food|Cafe La Pasion
+Uluwatu|food|Warung Local
+Uluwatu|food|Lolas Mexican
+Seminyak|coffee|Kynd Cafe
+Seminyak|activity|Mrs Sippy Beach Club
+Seminyak|general|CrossFit Seminyak
+Seminyak|food|Boy N Cow
+Seminyak|food|Si Jin
+Seminyak|activity|Potato Head
+Amed|coffee|Good Stuff
+Amed|coffee|Rimba Cafe
+Amed|coffee|The Cup Coffee
+Amed|food|Small Time Cooks
+Amed|food|Warung Agung
+Amed|food|Galanga
+Amed|food|Warung Amed
+Amed|food|Warung Osin
+Amed|food|Warung Enak
+Amed|activity|Blue Lagoon Beach
+Amed|activity|Blue Earth Village
+Amed|activity|Snorkelling / Scuba Diving
+Amed|general|Sunset Point
+Amed|activity|Tirta Gangga
+Amed|activity|Taman Ujung
+`.trim().split('\n').map(x=>{const [area,cat,name]=x.split('|');return {area,cat,name}});
+const map=L.map('map').setView([-8.55,115.45],10);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const google=p=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.name+' '+p.area+' Bali');
+// The source list has area names rather than verified venue coordinates. Fan
+// pins within each area so every location remains visible and selectable.
+const areaSeen={};
+rows.forEach((p,i)=>{const [lat,lon]=areas[p.area];const n=areaSeen[p.area]||0;areaSeen[p.area]=n+1;const col=n%9,row=Math.floor(n/9);const angle=(n%9)*Math.PI*2/9;const radius=0.0012+row*0.0013;const pin=[lat+Math.sin(angle)*radius,lon+Math.cos(angle)*radius];const html=`<div style="width:24px;height:24px;border-radius:50%;background:${colours[p.cat]};border:2.5px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;font:700 10px/1 Arial;color:#fff">${i+1}</div>`;L.marker(pin,{icon:L.divIcon({className:'',html,iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map).bindPopup(`<div class="pin-cat">${esc(p.cat)} · ${esc(p.area)}</div><div class="pin-title">${esc(p.name)}</div><a href="${google(p)}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 12px;background:#4285F4;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600">📍 Open in Google Maps</a>`) });
+</script></body></html>
