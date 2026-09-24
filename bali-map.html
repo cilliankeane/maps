@@ -13,219 +13,222 @@ html,body{margin:0;padding:0;height:100%;font-family:-apple-system,Segoe UI,Robo
 <span><span class="dot" style="background:#e67e22"></span>Coffee / breakfast</span><br><span><span class="dot" style="background:#1565c0"></span>Lunch / dinner</span><br><span><span class="dot" style="background:#8e24aa"></span>Treats / drinks</span><br><span><span class="dot" style="background:#d32f2f"></span>Activity</span><br><span><span class="dot" style="background:#00838f"></span>General / gym</span></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-const areas={Ubud:[-8.5069,115.2625],Amed:[-8.345,115.631],'Gili T':[-8.350,116.043],'Nusa Penida':[-8.727,115.544],'Nusa Ceningan':[-8.704,115.435],'Nusa Lembongan':[-8.678,115.451],Sanur:[-8.691,115.263],Uluwatu:[-8.829,115.084],Seminyak:[-8.691,115.168],Canggu:[-8.647,115.138]};
 const colours={coffee:'#e67e22',food:'#1565c0',treat:'#8e24aa',activity:'#d32f2f',general:'#00838f'};
 const rows=`
-Canggu|coffee|Copenhagen (cafe)
-Canggu|coffee|The Machinery
-Canggu|coffee|The Common
-Canggu|coffee|Rise and Shine
-Canggu|coffee|Revolver Coffee
-Canggu|coffee|Crate Coffee
-Canggu|coffee|Mr Egg
-Canggu|coffee|Coffee Cartel
-Canggu|food|Tribal
-Canggu|coffee|Fold
-Canggu|coffee|Touché
-Canggu|food|Milk and Madu
-Canggu|coffee|Doppio Cafe
-Canggu|coffee|7am Bakery
-Canggu|coffee|Kynd Cafe
-Canggu|coffee|Butterman
-Canggu|coffee|Little Engine
-Canggu|food|La Brisa
-Canggu|food|Penny Lane
-Canggu|food|The Lawn
-Canggu|food|Lola's Cantina Mexicana
-Canggu|food|Pasta Dealers
-Canggu|food|Ji Restaurant
-Canggu|food|Santorini
-Canggu|food|Synkonah
-Canggu|food|Pasta Bar
-Canggu|food|Warung Local
-Canggu|food|Boy N Cow
-Canggu|treat|Lulu Cookies
-Canggu|treat|Dough Lab
-Canggu|treat|Sinamon
-Canggu|treat|Dang Cookies
-Canggu|general|Colours Nails
-Canggu|general|AU Nails
-Canggu|general|Play Room Sports Bar
-Canggu|general|The Mailroom Speakeasy
-Canggu|activity|Potato Head Seminyak
-Canggu|activity|Alternative Beach Club
-Canggu|activity|Finns Beach Club
-Canggu|activity|Wanderlust CrossFit
-Canggu|activity|Axum Beach Club
-Canggu|activity|Atlas Beach Fest
-Canggu|activity|Blacklist Coffee Roaster
-Canggu|general|Imagine Avenue Shop
-Canggu|general|Skate Element
-Canggu|activity|Paddle
-Canggu|general|Love Anchor
-Nusa Penida|coffee|Orion Bakery
-Nusa Penida|food|Wyn's Penida
-Nusa Penida|food|Sunny Penida
-Nusa Penida|food|Kelapa Penida
-Nusa Penida|treat|Sugar Daddy Gelato
-Nusa Penida|food|Secret Penida
-Nusa Penida|food|Penida Colada
-Nusa Penida|food|Coco Penida Restaurant
-Nusa Penida|food|Virgin Beach Restaurant
-Nusa Penida|food|Street Food
-Nusa Penida|food|Father Field Bistro
-Nusa Penida|coffee|Patio Penida
-Nusa Penida|activity|Kelingking Beach
-Nusa Penida|activity|Diamond Beach
-Nusa Penida|activity|Thousand Island View
-Nusa Penida|activity|Rumah Pohon Treehouse
-Nusa Penida|activity|Crystal Bay
-Nusa Penida|activity|Broken Bridge
-Nusa Penida|activity|Angels Billabong
-Nusa Penida|activity|Amok Sunset
-Nusa Penida|activity|Manta Point
-Nusa Penida|activity|Atuh Beach
-Nusa Penida|activity|Manta Ray Snorkelling
-Nusa Ceningan|food|Sea Breeze
-Nusa Ceningan|activity|Klyf Club
-Nusa Ceningan|activity|Secret Point Beach
-Nusa Ceningan|activity|Le Pirate
-Nusa Ceningan|activity|Mahana Point
-Nusa Ceningan|activity|Cloudland Bar
-Nusa Lembongan|food|Thai Pantry
-Nusa Lembongan|food|La Bianca
-Nusa Lembongan|food|Ohanas
-Nusa Lembongan|coffee|B'Fresh
-Nusa Lembongan|coffee|Ombak Zero Waste
-Nusa Lembongan|food|Curry Traders
-Nusa Lembongan|coffee|The Deck Cafe
-Nusa Lembongan|food|Hai Bar and Grill
-Nusa Lembongan|coffee|Bali Eco Deli
-Nusa Lembongan|treat|Cookie Cafe and Warung
-Nusa Lembongan|food|Alponte Italian
-Nusa Lembongan|coffee|Mushroom Espresso
-Nusa Lembongan|activity|Floating Bar
-Nusa Lembongan|activity|Devils Tear
-Nusa Lembongan|activity|Dream Beach
-Nusa Lembongan|activity|Mushroom Beach
-Sanur|food|Kedai Roppongi
-Sanur|food|Soul on the Beach
-Sanur|activity|Mertasari Beach
-Sanur|food|Sanur Night Market
-Ubud|food|Milk & Madu Cafe
-Ubud|food|Simply Social
-Ubud|coffee|Daily Baguette
-Ubud|coffee|Blend Cafe
-Ubud|coffee|Keliki Coffee
-Ubud|coffee|Sunny Coffee
-Ubud|coffee|Suka Espresso
-Ubud|coffee|Sananda Cafe
-Ubud|food|Warung Puspas
-Ubud|food|Pesonas Lounge
-Ubud|food|Baba Bistro
-Ubud|treat|Sinamon
-Ubud|food|Warung Lokal
-Ubud|food|Warung Biah Biah
-Ubud|food|Warung Healthy
-Ubud|activity|Ubud Monkey Forest
-Ubud|activity|Kanto Lampo Waterfall
-Ubud|activity|Udaya Resorts and Spa
-Ubud|activity|Tegallalang Rice Terraces
-Ubud|activity|Tegenungan Waterfall
-Ubud|activity|Aloha Ubud Swing
-Ubud|activity|Coffee Plantation
-Ubud|activity|Suwat Waterfall
-Ubud|activity|Goa Rang Reng
-Ubud|activity|Taman Sari
-Ubud|activity|Tibumana
-Ubud|activity|Cretya
-Ubud|activity|CrossFit Ubud
-Ubud|activity|Karsa Spa
-Ubud|activity|Mount Batur Trek
-Ubud|activity|Tirta Empul Temple
-Ubud|activity|Sidemen Silver
-Ubud|coffee|Kopi Tetanga Coffee
-Ubud|activity|Padi Fair Rice Fields
-Ubud|activity|The Yoga Barn
-Ubud|general|Massas Fitness Centre
-Gili T|coffee|Coffee and Thyme
-Gili T|coffee|Hello Capitano
-Gili T|coffee|Kayu Cafe
-Gili T|coffee|Coco Cafe
-Gili T|general|Tír na nóg Irish Bar
-Gili T|general|PinkCoco
-Gili T|activity|Beach Cinema at Ashton Resort
-Gili T|activity|Turtle Point Snorkelling
-Gili T|activity|Gili Meno Statues Snorkel
-Gili T|activity|Baby Turtles
-Gili T|general|Total Body Fit Gym
-Gili T|activity|Boat Tour
-Gili T|food|Horizontal Bar
-Gili T|activity|Skinny Dip Beach Club
-Gili T|food|Samadhi Living
-Gili T|food|Persona Lounge
-Gili T|food|Tiki Grove
-Gili T|food|Francesco's Pizza
-Gili T|food|Pasta Pojok
-Gili T|food|Fat Cats
-Gili T|food|The Banyan Tree
-Gili T|general|Sunset Point
-Gili T|general|Joss Shot
-Uluwatu|coffee|Nourish
-Uluwatu|coffee|Suka Espresso
-Uluwatu|coffee|The Bakery
-Uluwatu|coffee|Tara Belle
-Uluwatu|coffee|Bulls Coffee
-Uluwatu|food|Black Rose Resto
-Uluwatu|coffee|Ours
-Uluwatu|coffee|Three Steps Coffee
-Uluwatu|food|Warung Ganesha
-Uluwatu|food|Warung Local
-Uluwatu|activity|Cattamaran Beach Club
-Uluwatu|activity|Nyang Nyang Beach
-Uluwatu|activity|Palimilla Beach Club
-Uluwatu|activity|Sundays Beach Club
-Uluwatu|activity|Dreamland Beach
-Uluwatu|general|Bambu Fitness Gym
-Uluwatu|activity|The Space Bali
-Uluwatu|activity|Traditional Dance
-Uluwatu|activity|Pantai Banti Barrack
-Uluwatu|activity|Pandawa Beach
-Uluwatu|food|Warung Kelly
-Uluwatu|food|Mana
-Uluwatu|food|D'Alvie
-Uluwatu|food|Lucky Fish Lounge
-Uluwatu|food|Divino by Casa Asia
-Uluwatu|food|Rolling Fork
-Uluwatu|food|Cafe La Pasion
-Uluwatu|food|Warung Local
-Uluwatu|food|Lolas Mexican
-Seminyak|coffee|Kynd Cafe
-Seminyak|activity|Mrs Sippy Beach Club
-Seminyak|general|CrossFit Seminyak
-Seminyak|food|Boy N Cow
-Seminyak|food|Si Jin
-Seminyak|activity|Potato Head
-Amed|coffee|Good Stuff
-Amed|coffee|Rimba Cafe
-Amed|coffee|The Cup Coffee
-Amed|food|Small Time Cooks
-Amed|food|Warung Agung
-Amed|food|Galanga
-Amed|food|Warung Amed
-Amed|food|Warung Osin
-Amed|food|Warung Enak
-Amed|activity|Blue Lagoon Beach
-Amed|activity|Blue Earth Village
-Amed|activity|Snorkelling / Scuba Diving
-Amed|general|Sunset Point
-Amed|activity|Tirta Gangga
-Amed|activity|Taman Ujung
-`.trim().split('\n').map(x=>{const [area,cat,name]=x.split('|');return {area,cat,name}});
+Canggu|coffee|Copenhagen (cafe)|-8.646070|115.133800
+Canggu|coffee|The Machinery|-8.645892|115.126736
+Canggu|coffee|The Common|-8.650672|115.135712
+Canggu|coffee|Rise and Shine|-8.646092|115.133949
+Canggu|coffee|Revolver Coffee|-8.653269|115.135580
+Canggu|coffee|Crate Coffee|-8.640883|115.133958
+Canggu|coffee|Mr Egg|-8.667440|115.160988
+Canggu|coffee|Coffee Cartel|-8.676360|115.158140
+Canggu|food|Tribal|-8.648735|115.124750
+Canggu|coffee|Fold|-8.657198|115.134438
+Canggu|coffee|Touché|-8.645349|115.126966
+Canggu|food|Milk and Madu|-8.655525|115.132080
+Canggu|coffee|Doppio Cafe|-8.655916|115.134949
+Canggu|coffee|7am Bakery|-8.656364|115.152394
+Canggu|coffee|Kynd Cafe|-8.657524|115.134442
+Canggu|coffee|Butterman|-8.657709|115.147212
+Canggu|coffee|Little Engine|-8.647624|115.139431
+Canggu|food|La Brisa|-8.654245|115.125026
+Canggu|food|Penny Lane|-8.653356|115.130567
+Canggu|food|The Lawn|-8.658524|115.129617
+Canggu|food|Lola's Cantina Mexicana|-8.653447|115.136611
+Canggu|food|Pasta Dealers|-8.651977|115.156495
+Canggu|food|Ji Restaurant|-8.658528|115.130486
+Canggu|food|Santorini|-8.651950|115.131995
+Canggu|food|Synkonah|-8.664558|115.139918
+Canggu|food|Pasta Bar|-8.657518|115.146637
+Canggu|food|Warung Local|-8.646677|115.140571
+Canggu|food|Boy N Cow|-8.682058|115.164354
+Canggu|treat|Lulu Cookies|-8.646233|115.133796
+Canggu|treat|Dough Lab|-8.658291|115.140122
+Canggu|treat|Sinamon|-8.652147|115.155287
+Canggu|treat|Dang Cookies|-8.651674|115.129271
+Canggu|general|Colours Nails|-8.650026|115.159586
+Canggu|general|AU Nails|-8.652973|115.142937
+Canggu|general|Play Room Sports Bar|-8.664654|115.145346
+Canggu|general|The Mailroom Speakeasy|-8.659853|115.139801
+Canggu|activity|Potato Head Seminyak|-8.679435|115.149934
+Canggu|activity|Alternative Beach Club|-8.654213|115.133213
+Canggu|activity|Finns Beach Club|-8.666765|115.139398
+Canggu|activity|Wanderlust CrossFit|-8.641939|115.156347
+Canggu|activity|Axum Beach Club|-8.655817|115.126294
+Canggu|activity|Atlas Beach Fest|-8.665142|115.140583
+Canggu|activity|Blacklist Coffee Roaster|-8.650607|115.134324
+Canggu|general|Imagine Avenue Shop|-8.653410|115.130569
+Canggu|general|Skate Element|-8.653810|115.139292
+Canggu|activity|Paddle|-8.634792|115.139773
+Canggu|general|Love Anchor|-8.651745|115.133919
+Nusa Penida|coffee|Orion Bakery|-8.673159|115.494597
+Nusa Penida|food|Wyn's Penida|-8.680890|115.488915
+Nusa Penida|food|Sunny Penida|-8.679073|115.489603
+Nusa Penida|food|Kelapa Penida|-8.677854|115.490851
+Nusa Penida|treat|Sugar Daddy Gelato|-8.679432|115.489470
+Nusa Penida|food|Secret Penida|-8.677562|115.525937
+Nusa Penida|food|Penida Colada|-8.675712|115.511965
+Nusa Penida|food|Coco Penida Restaurant|-8.676123|115.513237
+Nusa Penida|food|Virgin Beach Restaurant|-8.672606|115.500110
+Nusa Penida|food|Street Food|-8.707936|115.492285
+Nusa Penida|food|Father Field Bistro|-8.702780|115.489749
+Nusa Penida|coffee|Patio Penida|-8.680284|115.489232
+Nusa Penida|activity|Kelingking Beach|-8.751385|115.473204
+Nusa Penida|activity|Diamond Beach|-8.775135|115.620228
+Nusa Penida|activity|Thousand Island View|-8.778779|115.616925
+Nusa Penida|activity|Rumah Pohon Treehouse|-8.778511|115.616840
+Nusa Penida|activity|Crystal Bay|-8.715161|115.459056
+Nusa Penida|activity|Broken Bridge|-8.732794|115.450832
+Nusa Penida|activity|Angels Billabong|-8.733500|115.448979
+Nusa Penida|activity|Amok Sunset|-8.705656|115.465524
+Nusa Penida|activity|Manta Point|-8.793903|115.527015
+Nusa Penida|activity|Atuh Beach|-8.773412|115.621819
+Nusa Penida|activity|Manta Ray Snorkelling|-8.673312|115.505312
+Nusa Ceningan|food|Sea Breeze|-8.698537|115.447420
+Nusa Ceningan|activity|Klyf Club|-8.707728|115.439356
+Nusa Ceningan|activity|Secret Point Beach|-8.706513|115.438422
+Nusa Ceningan|activity|Le Pirate|-8.700600|115.443144
+Nusa Ceningan|activity|Mahana Point|-8.706322|115.437725
+Nusa Ceningan|activity|Cloudland Bar|-8.687527|115.429159
+Nusa Lembongan|food|Thai Pantry|-8.679483|115.444699
+Nusa Lembongan|food|La Bianca|-8.677435|115.446480
+Nusa Lembongan|food|Ohanas|-8.669115|115.447971
+Nusa Lembongan|coffee|B'Fresh|-8.679066|115.446026
+Nusa Lembongan|coffee|Ombak Zero Waste|-8.667034|115.448331
+Nusa Lembongan|food|Curry Traders|-8.667235|115.450643
+Nusa Lembongan|coffee|The Deck Cafe|-8.679469|115.444274
+Nusa Lembongan|food|Hai Bar and Grill|-8.682178|115.433768
+Nusa Lembongan|coffee|Bali Eco Deli|-8.671990|115.449393
+Nusa Lembongan|treat|Cookie Cafe and Warung|-8.689027|115.435189
+Nusa Lembongan|food|Alponte Italian|-8.693687|115.447567
+Nusa Lembongan|coffee|Mushroom Espresso|-8.683530|115.433852
+Nusa Lembongan|activity|Floating Bar|-8.678753|115.440186
+Nusa Lembongan|activity|Devils Tear|-8.690565|115.430288
+Nusa Lembongan|activity|Dream Beach|-8.690951|115.433222
+Nusa Lembongan|activity|Mushroom Beach|-8.682300|115.433530
+Sanur|food|Kedai Roppongi|-8.685082|115.259977
+Sanur|food|Soul on the Beach|-8.685230|115.264461
+Sanur|activity|Mertasari Beach|-8.712503|115.251783
+Sanur|food|Sanur Night Market|-8.685227|115.260100
+Ubud|food|Milk & Madu Cafe|-8.506302|115.262369
+Ubud|food|Simply Social|-8.507727|115.264034
+Ubud|coffee|Daily Baguette|-8.505891|115.259901
+Ubud|coffee|Blend Cafe|-8.521512|115.256979
+Ubud|coffee|Keliki Coffee|-8.480993|115.255778
+Ubud|coffee|Sunny Coffee|-8.512700|115.264256
+Ubud|coffee|Suka Espresso|-8.521110|115.263180
+Ubud|coffee|Sananda Cafe|-8.508042|115.261908
+Ubud|food|Warung Puspas|-8.514982|115.264935
+Ubud|food|Pesonas Lounge|-8.511581|115.263818
+Ubud|food|Baba Bistro|-8.507851|115.264499
+Ubud|treat|Sinamon|-8.508395|115.261787
+Ubud|food|Warung Lokal|-8.508839|115.264346
+Ubud|food|Warung Biah Biah|-8.509314|115.264230
+Ubud|food|Warung Healthy|-8.508732|115.264349
+Ubud|activity|Ubud Monkey Forest|-8.519373|115.260630
+Ubud|activity|Kanto Lampo Waterfall|-8.532507|115.332861
+Ubud|activity|Udaya Resorts and Spa|-8.486358|115.266732
+Ubud|activity|Tegallalang Rice Terraces|-8.431711|115.279303
+Ubud|activity|Tegenungan Waterfall|-8.575362|115.288960
+Ubud|activity|Aloha Ubud Swing|-8.463913|115.276511
+Ubud|activity|Coffee Plantation|-8.548700|115.260303
+Ubud|activity|Suwat Waterfall|-8.487664|115.317864
+Ubud|activity|Goa Rang Reng|-8.515593|115.331344
+Ubud|activity|Taman Sari|-8.502219|115.328322
+Ubud|activity|Tibumana|-8.506838|115.333083
+Ubud|activity|Cretya|-8.439962|115.280982
+Ubud|activity|CrossFit Ubud|-8.533547|115.262977
+Ubud|activity|Karsa Spa|-8.489582|115.258397
+Ubud|activity|Mount Batur Trek|-8.502424|115.264104
+Ubud|activity|Tirta Empul Temple|-8.415659|115.315328
+Ubud|activity|Sidemen Silver|-8.523867|115.267240
+Ubud|coffee|Kopi Tetanga Coffee|-8.507328|115.261471
+Ubud|activity|Padi Fair Rice Fields|-8.457292|115.243507
+Ubud|activity|The Yoga Barn|-8.519583|115.266139
+Ubud|general|Massas Fitness Centre|-8.523701|115.267816
+Gili T|coffee|Coffee and Thyme|-8.352673|116.043815
+Gili T|coffee|Hello Capitano|-8.353601|116.043407
+Gili T|coffee|Kayu Cafe|-8.354192|116.043187
+Gili T|coffee|Coco Cafe|-8.354568|116.043022
+Gili T|general|Tír na nóg Irish Bar|-8.357112|116.041579
+Gili T|general|PinkCoco|-8.360464|116.034042
+Gili T|activity|Beach Cinema at Ashton Resort|-8.347278|116.028266
+Gili T|activity|Turtle Point Snorkelling|-8.352482|116.087077
+Gili T|activity|Gili Meno Statues Snorkel|-8.349560|116.050653
+Gili T|activity|Baby Turtles|-8.356479|116.061411
+Gili T|general|Total Body Fit Gym|-8.352995|116.043650
+Gili T|activity|Boat Tour|-8.357730|116.041518
+Gili T|food|Horizontal Bar|-8.344887|116.041992
+Gili T|activity|Skinny Dip Beach Club|-8.350539|116.028791
+Gili T|food|Samadhi Living|-8.510976|115.264733
+Gili T|food|Persona Lounge|-8.355774|116.042348
+Gili T|food|Tiki Grove|-8.346208|116.038627
+Gili T|food|Francesco's Pizza|-8.352231|116.043561
+Gili T|food|Pasta Pojok|-8.354042|116.043229
+Gili T|food|Fat Cats|-8.349563|116.043346
+Gili T|food|The Banyan Tree|-8.352128|116.043916
+Gili T|general|Sunset Point|-8.344929|116.028423
+Gili T|general|Joss Shot|
+Uluwatu|coffee|Nourish|-8.814574|115.112322
+Uluwatu|coffee|Suka Espresso|-8.816350|115.096026
+Uluwatu|coffee|The Bakery|-8.814687|115.112062
+Uluwatu|coffee|Tara Belle|-8.820099|115.150355
+Uluwatu|coffee|Bulls Coffee|-8.831036|115.131023
+Uluwatu|food|Black Rose Resto|-8.830523|115.133034
+Uluwatu|coffee|Ours|-8.813542|115.109667
+Uluwatu|coffee|Three Steps Coffee|-8.828424|115.088167
+Uluwatu|food|Warung Ganesha|-8.450464|115.266419
+Uluwatu|food|Warung Local|-8.817600|115.114433
+Uluwatu|activity|Cattamaran Beach Club|-8.848194|115.160381
+Uluwatu|activity|Nyang Nyang Beach|-8.839164|115.093417
+Uluwatu|activity|Palimilla Beach Club|-8.847851|115.157812
+Uluwatu|activity|Sundays Beach Club|-8.847121|115.150740
+Uluwatu|activity|Dreamland Beach|-8.799319|115.117766
+Uluwatu|general|Bambu Fitness Gym|-8.811643|115.114007
+Uluwatu|activity|The Space Bali|-8.812241|115.113249
+Uluwatu|activity|Traditional Dance|-8.830573|115.085409
+Uluwatu|activity|Pantai Banti Barrack|-8.845005|115.174290
+Uluwatu|activity|Pandawa Beach|-8.845280|115.187068
+Uluwatu|food|Warung Kelly|-8.805387|115.113724
+Uluwatu|food|Mana|-8.818717|115.088009
+Uluwatu|food|D'Alvie|-8.812555|115.112903
+Uluwatu|food|Lucky Fish Lounge|-8.811486|115.111928
+Uluwatu|food|Divino by Casa Asia|-8.811836|115.113617
+Uluwatu|food|Rolling Fork|-8.817322|115.113856
+Uluwatu|food|Cafe La Pasion|-8.803106|115.131800
+Uluwatu|food|Warung Local|-8.817600|115.114433
+Uluwatu|food|Lolas Mexican|-8.817381|115.098437
+Seminyak|coffee|Kynd Cafe|-8.674806|115.156725
+Seminyak|activity|Mrs Sippy Beach Club|-8.679589|115.151247
+Seminyak|general|CrossFit Seminyak|-8.689631|115.165045
+Seminyak|food|Boy N Cow|-8.682058|115.164354
+Seminyak|food|Si Jin|-8.676465|115.158553
+Seminyak|activity|Potato Head|-8.679435|115.149934
+Amed|coffee|Good Stuff|-8.335479|115.632156
+Amed|coffee|Rimba Cafe|-8.335653|115.651806
+Amed|coffee|The Cup Coffee|-8.335729|115.650104
+Amed|food|Small Time Cooks|-8.335933|115.650031
+Amed|food|Warung Agung|-8.351529|115.683018
+Amed|food|Galanga|-8.344152|115.669242
+Amed|food|Warung Amed|-8.335401|115.652458
+Amed|food|Warung Osin|-8.335451|115.651370
+Amed|food|Warung Enak|-8.335953|115.649507
+Amed|activity|Blue Lagoon Beach|-8.529851|115.513103
+Amed|activity|Blue Earth Village|-8.338640|115.662430
+Amed|activity|Snorkelling / Scuba Diving|-8.339006|115.659589
+Amed|general|Sunset Point|-8.337918|115.662985
+Amed|activity|Tirta Gangga|-8.412347|115.587292
+Amed|activity|Taman Ujung|-8.463081|115.630669
+`.trim().split('\n').map(x=>{const [area,cat,name,lat,lng]=x.split('|');return {area,cat,name,lat:lat?parseFloat(lat):null,lng:lng?parseFloat(lng):null}});
 const map=L.map('map').setView([-8.55,115.45],10);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
-const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const google=p=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.name+' '+p.area+' Bali');
-// The source list has area names rather than verified venue coordinates. Fan
-// pins within each area so every location remains visible and selectable.
-const areaSeen={};
-rows.forEach((p,i)=>{const [lat,lon]=areas[p.area];const n=areaSeen[p.area]||0;areaSeen[p.area]=n+1;const col=n%9,row=Math.floor(n/9);const angle=(n%9)*Math.PI*2/9;const radius=0.0012+row*0.0013;const pin=[lat+Math.sin(angle)*radius,lon+Math.cos(angle)*radius];const html=`<div style="width:24px;height:24px;border-radius:50%;background:${colours[p.cat]};border:2.5px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;font:700 10px/1 Arial;color:#fff">${i+1}</div>`;L.marker(pin,{icon:L.divIcon({className:'',html,iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map).bindPopup(`<div class="pin-cat">${esc(p.cat)} · ${esc(p.area)}</div><div class="pin-title">${esc(p.name)}</div><a href="${google(p)}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 12px;background:#4285F4;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600">📍 Open in Google Maps</a>`) });
+const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const google=p=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.name+' '+p.area+' Bali');
+L.marker; // noop
+rows.forEach((p,i)=>{
+  if(p.lat==null||p.lng==null) return; // unresolved: skip (Joss Shot pending)
+  const col=colours[p.cat]||'#555';
+  const html=`<div style="width:24px;height:24px;border-radius:50%;background:${col};border:2.5px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;font:700 10px/1 Arial;color:#fff">${i+1}</div>`;
+  L.marker([p.lat,p.lng],{icon:L.divIcon({className:'',html,iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map).bindPopup(`<div class="pin-cat">${esc(p.cat)} · ${esc(p.area)}</div><div class="pin-title">${esc(p.name)}</div><a href="${google(p)}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 12px;background:#4285F4;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600">📍 Open in Google Maps</a>`);
+});
 </script></body></html>
