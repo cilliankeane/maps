@@ -221,7 +221,7 @@ Amed|activity|Snorkelling / Scuba Diving
 Amed|general|Sunset Point
 Amed|activity|Tirta Gangga
 Amed|activity|Taman Ujung
-`.trim().split('\\n').map(x=>{const [area,cat,name]=x.split('|');return {area,cat,name}});
+`.trim().split('\n').map(x=>{const [area,cat,name]=x.split('|');return {area,cat,name}});
 const map=L.map('map').setView([-8.55,115.45],10);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
 const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const google=p=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.name+' '+p.area+' Bali');
 // The source list has area names rather than verified venue coordinates. Fan
