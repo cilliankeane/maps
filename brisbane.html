@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brisbane Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+html,body{margin:0;padding:0;height:100%;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+#map{position:absolute;inset:0}
+.pin-title{font-weight:700;font-size:15px}
+.pin-cat{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.5px}
+.pin-desc{color:#555;font-size:12px;margin-top:2px}
+.pin-addr{color:#777;font-size:11.5px;margin-top:5px}
+.pin-rate{color:#b8860b;font-size:11.5px;margin-top:3px}
+.back{position:absolute;z-index:1000;top:10px;left:10px;background:#fff;border-radius:20px;padding:8px 14px;
+  font-size:13px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.25);text-decoration:none;color:#333}
+.legend{position:absolute;z-index:999;bottom:18px;left:10px;background:rgba(255,255,255,.95);border-radius:8px;
+  padding:10px 12px;box-shadow:0 2px 10px rgba(0,0,0,.25);font-size:12px;max-width:270px;line-height:1.7;max-height:52vh;overflow:auto}
+.legend b{display:block;margin-bottom:4px;font-size:12.5px}
+.legend .dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:middle;border:1px solid rgba(0,0,0,.15)}
+</style></head>
+<body>
+<div id="map"></div><a class="back" href="index.html">← All cities</a>
+<div class="legend"><b>Brisbane</b><span><span class="dot" style="background:#d32f2f"></span>Attractions (7)</span><br><span><span class="dot" style="background:#00838f"></span>Transport (1)</span><br><span><span class="dot" style="background:#8e24aa"></span>Bars / brewery (1)</span><br><span><span class="dot" style="background:#e67e22"></span>Coffee (1)</span><br><span><span class="dot" style="background:#1565c0"></span>Food (1)</span><br></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const colours={"attraction": "#d32f2f", "bar": "#8e24aa", "food": "#1565c0", "coffee": "#e67e22", "transport": "#00838f"};
+const rows=[{"name": "Australia Zoo", "cat": "attraction", "note": "Steve Irwin's zoo (Beerwah, ~1h north)", "lat": -26.835718099999998, "lng": 152.963113, "addr": "1638 Steve Irwin Wy, Beerwah QLD 4519, Australia", "url": "https://maps.google.com/?cid=10461022599330327859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.7, "reviews": 25867}, {"name": "Brisbane Arcade", "cat": "attraction", "note": "Heritage shopping arcade, Queen St", "lat": -27.468891, "lng": 153.025328, "addr": "Brisbane Arcade, 160 Queen St, Brisbane City QLD 4000, Australia", "url": "https://maps.google.com/?cid=7458826777105219422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.5, "reviews": 870}, {"name": "Eat Street Northshore", "cat": "attraction", "note": "Night market — street food, live music", "lat": -27.4438961, "lng": 153.0797179, "addr": "221D MacArthur Ave, Hamilton QLD 4007, Australia", "url": "https://maps.google.com/?cid=6529988309697867495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.6, "reviews": 15637}, {"name": "Lone Pine Koala Sanctuary", "cat": "attraction", "note": "Koalas & wildlife park", "lat": -27.5337818, "lng": 152.968815, "addr": "708 Jesmond Rd, Fig Tree Pocket QLD 4069, Australia", "url": "https://maps.google.com/?cid=15661904608812169526&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.6, "reviews": 13419}, {"name": "Queensland Museum Kurilpa", "cat": "attraction", "note": "Museum — free entry", "lat": -27.473108999999997, "lng": 153.0181887, "addr": "Corner of Grey and, Melbourne St, South Brisbane QLD 4101, Australia", "url": "https://maps.google.com/?cid=1430191229874908217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.6, "reviews": 10298}, {"name": "South Bank Parklands", "cat": "attraction", "note": "Parklands, riverside precinct", "lat": -27.4753665, "lng": 153.0208068, "addr": "Clem Jones Promenade, South Brisbane QLD 4101, Australia", "url": "https://maps.google.com/?cid=16605049879819021326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.8, "reviews": 2156}, {"name": "Streets Beach", "cat": "attraction", "note": "Man-made beach at South Bank", "lat": -27.478384199999997, "lng": 153.02338029999999, "addr": "Stanley St Plaza, South Brisbane QLD 4101, Australia", "url": "https://maps.google.com/?cid=16241848289816298770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.7, "reviews": 1407}, {"name": "CityCat Terminal South Bank", "cat": "transport", "note": "Ferry — CityCat terminal", "lat": -27.476104, "lng": 153.02217299999998, "addr": "100A Edmondstone St, South Brisbane QLD 4101, Australia", "url": "https://maps.google.com/?cid=7801954677905598969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.1, "reviews": 103}, {"name": "Felons Brewing Co", "cat": "bar", "note": "Brewery at Howard Smith Wharves", "lat": -27.462407000000002, "lng": 153.03616159999999, "addr": "5 Boundary St, Brisbane City QLD 4000, Australia", "url": "https://maps.google.com/?cid=10054204805220792870&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4, "reviews": 5044}, {"name": "Double Maker Coffee", "cat": "coffee", "note": "Specialty coffee", "lat": -27.472935399999997, "lng": 153.0276392, "addr": "126 Margaret St, Brisbane City QLD 4000, Australia", "url": "https://maps.google.com/?cid=3073384969287730471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.7, "reviews": 445}, {"name": "Andonis Cafe & Bar", "cat": "food", "note": "Café & bar", "lat": -27.459604199999998, "lng": 153.0375686, "addr": "Unit 28/32 Robertson St, Fortitude Valley QLD 4006, Australia", "url": "https://maps.google.com/?cid=14836044525579638758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "rating": 4.5, "reviews": 3312}];
+const map=L.map('map').setView([-27.4805,153.023],12);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const latlngs=[];
+rows.forEach((p,i)=>{
+  latlngs.push([p.lat,p.lng]);
+  const col=colours[p.cat]||'#555';
+  const html=`<div style="width:26px;height:26px;border-radius:50%;background:${col};border:2.5px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;font:700 11px/1 Arial;color:#fff">${i+1}</div>`;
+  const rate=p.rating?`<div class="pin-rate">★ ${p.rating} (${p.reviews})</div>`:'';
+  L.marker([p.lat,p.lng],{icon:L.divIcon({className:'',html,iconSize:[26,26],iconAnchor:[13,13]})}).addTo(map)
+   .bindPopup(`<div class="pin-cat">${esc(p.cat)} · #${i+1}</div><div class="pin-title">${esc(p.name)}</div>`
+     +`<div class="pin-desc">${esc(p.note)}</div><div class="pin-addr">${esc(p.addr)}</div>${rate}`
+     +`<a href="${esc(p.url)}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 12px;background:#4285F4;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600">📍 Open in Google Maps</a>`);
+});
+if(latlngs.length) map.fitBounds(latlngs,{padding:[40,40],maxZoom:14});
+</script></body></html>
