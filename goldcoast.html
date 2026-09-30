@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gold Coast Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html,body{margin:0;padding:0;height:100%;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  #map{position:absolute;inset:0}
+  .pin-title{font-weight:700}
+  .pin-cat{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.5px}
+  .pin-desc{color:#555;font-size:12px;margin-top:3px}
+  .back{position:absolute;z-index:1000;top:10px;left:10px;background:#fff;border-radius:20px;padding:8px 14px;
+    font-size:13px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.25);text-decoration:none;color:#333}
+  .legend{position:absolute;z-index:999;bottom:18px;left:10px;background:rgba(255,255,255,.95);border-radius:8px;
+    padding:10px 12px;box-shadow:0 2px 10px rgba(0,0,0,.25);font-size:12px;max-width:280px;line-height:1.75}
+  .legend b{display:block;margin-bottom:4px;font-size:12.5px}
+  .legend .small{display:block;margin-bottom:6px;color:#777;font-size:11px;line-height:1.4}
+  .legend .dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:middle;
+    border:1px solid rgba(0,0,0,.15)}
+</style>
+</head>
+<body>
+  <div id="map"></div>
+  <a class="back" href="index.html">← All cities</a>
+  <div class="legend">
+    <b>🌊 Gold Coast (48 spots)</b>
+    <span class="small">Broadbeach · Burleigh Heads · Gold Coast · Hinterland · Main Beach · Nobby Beach · North Burleigh · Southern GC · Surfers Paradise</span>
+    <span><span class="dot" style="background:#e67e22"></span> Coffee / Bakery</span></span><br>
+    <span><span><span class="dot" style="background:#1565c0"></span> Food / Restaurants</span></span><br>
+    <span><span><span class="dot" style="background:#00838f"></span> Shopping</span></span><br>
+    <span><span><span class="dot" style="background:#8e24aa"></span> Bars / Breweries</span></span><br>
+    <span><span><span class="dot" style="background:#c62828"></span> Attractions / Things to do</span>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([-28.06, 153.43], 11);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const places = [
+      {name:"Bam Bam Bakehouse",cat:"Cafe",area:"Broadbeach",label:"Coffee / Bakery",color:"#e67e22",addr:"2519 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",rating:4.6,lat:-28.0414009,lon:153.4345744,gm:"https://maps.google.com/?cid=12899720142802396402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Blowfish Seafood \u2605 Steak \u2605 Bar",cat:"Food",area:"Broadbeach",label:"Food / Restaurants",color:"#1565c0",addr:"3 Oracle Bvd, Broadbeach QLD 4218, Australia",rating:4.4,lat:-28.0306981,lon:153.43251429999998,gm:"https://maps.google.com/?cid=6163390784147677842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Etsu Izakaya",cat:"Food",area:"Broadbeach",label:"Food / Restaurants",color:"#1565c0",addr:"2440 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",rating:4.6,lat:-28.0462647,lon:153.4350153,gm:"https://maps.google.com/?cid=4545098201039631077&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Hideaway Kitchen &amp; Bar",cat:"Food",area:"Broadbeach",label:"Food / Restaurants",color:"#1565c0",addr:"2657 Gold Coast Hwy, Broadbeach QLD 4218, Australia",rating:4.3,lat:-28.0330609,lon:153.43127300000003,gm:"https://maps.google.com/?cid=16733259935863203026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Koi Broadbeach",cat:"Food",area:"Broadbeach",label:"Food / Restaurants",color:"#1565c0",addr:"Shop 101-103/89 Surf Parade, Broadbeach QLD 4218, Australia",rating:4.5,lat:-28.0287367,lon:153.4313942,gm:"https://maps.google.com/?cid=8777208748980143067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Kurrawa Surf Club",cat:"Food",area:"Broadbeach",label:"Food / Restaurants",color:"#1565c0",addr:"Old Burleigh Rd, Broadbeach QLD 4218, Australia",rating:4.2,lat:-28.029849199999997,lon:153.43483799999998,gm:"https://maps.google.com/?cid=3085818025088489776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Mamasan",cat:"Food",area:"Broadbeach",label:"Food / Restaurants",color:"#1565c0",addr:"3 Oracle Bvd, Broadbeach QLD 4218, Australia",rating:4.5,lat:-28.0306626,lon:153.4319644,gm:"https://maps.google.com/?cid=2118940487596178701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Pacific Fair Shopping Centre",cat:"Shopping",area:"Broadbeach",label:"Shopping",color:"#00838f",addr:"32 Hooker Blvd, Broadbeach Waters QLD 4218, Australia",rating:4.6,lat:-28.0361743,lon:153.42699829999998,gm:"https://maps.google.com/?cid=1081606475369061072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"The Glenelg Public House",cat:"Food",area:"Broadbeach",label:"Food / Restaurants",color:"#1565c0",addr:"9/2460 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",rating:4.5,lat:-28.045198,lon:153.434755,gm:"https://maps.google.com/?cid=10425136550237478656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"The Loose Moose",cat:"Bar",area:"Broadbeach",label:"Bars / Breweries",color:"#8e24aa",addr:"F&amp;B 01, 75 Surf Parade, Broadbeach QLD 4218, Australia",rating:4.4,lat:-28.0295806,lon:153.43154819999998,gm:"https://maps.google.com/?cid=17916809211380995653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"The Star Casino Gold Coast",cat:"Attraction",area:"Broadbeach",label:"Attractions / Things to do",color:"#c62828",addr:"1 Casino Dr, Broadbeach QLD 4218, Australia",rating:3.1,lat:-28.031703,lon:153.4281891,gm:"https://maps.google.com/?cid=3178902130187078315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Apres Surf",cat:"Food",area:"Burleigh Heads",label:"Food / Restaurants",color:"#1565c0",addr:"1/1837 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",rating:4.5,lat:-28.0880764,lon:153.45057570000003,gm:"https://maps.google.com/?cid=17836242561161012533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Burleigh Pavilion",cat:"Food",area:"Burleigh Heads",label:"Food / Restaurants",color:"#1565c0",addr:"3a/43 Goodwin Terrace, Burleigh Heads QLD 4220, Australia",rating:3.7,lat:-28.0895963,lon:153.4548867,gm:"https://maps.google.com/?cid=2538232742880485451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Jimmy Wah&#x27;s",cat:"Food",area:"Burleigh Heads",label:"Food / Restaurants",color:"#1565c0",addr:"1724 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",rating:4.7,lat:-28.0887298,lon:153.45103659999998,gm:"https://maps.google.com/?cid=18216882875661198926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Justin Lane",cat:"Food",area:"Burleigh Heads",label:"Food / Restaurants",color:"#1565c0",addr:"Justin Ln, Burleigh Heads QLD 4220, Australia",rating:3.7,lat:-28.088829,lon:153.4513972,gm:"https://maps.google.com/?cid=6001101717500092449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Light Years - Burleigh Heads",cat:"Food",area:"Burleigh Heads",label:"Food / Restaurants",color:"#1565c0",addr:"1848 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",rating:4.6,lat:-28.0807643,lon:153.446785,gm:"https://maps.google.com/?cid=14815156772193560296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Local Burleigh",cat:"Bar",area:"Burleigh Heads",label:"Bars / Breweries",color:"#8e24aa",addr:"1744 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",rating:4.3,lat:-28.088494899999997,lon:153.4500538,gm:"https://maps.google.com/?cid=4350731289191729093&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Mr Hizola&#x27;s",cat:"Food",area:"Burleigh Heads",label:"Food / Restaurants",color:"#1565c0",addr:"1730 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",rating:4.3,lat:-28.088593000000003,lon:153.4506734,gm:"https://maps.google.com/?cid=15968574196644962578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Paloma Wine Bar",cat:"Bar",area:"Burleigh Heads",label:"Bars / Breweries",color:"#8e24aa",addr:"12 James St, Burleigh Heads QLD 4220, Australia",rating:4.4,lat:-28.0895052,lon:153.4509658,gm:"https://maps.google.com/?cid=15967083875781590751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Rick Shores",cat:"Food",area:"Burleigh Heads",label:"Food / Restaurants",color:"#1565c0",addr:"3/43 Goodwin Terrace, Burleigh Heads QLD 4220, Australia",rating:4.5,lat:-28.0894342,lon:153.4546263,gm:"https://maps.google.com/?cid=16336685934142221030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Rosella&#x27;s",cat:"Food",area:"Burleigh Heads",label:"Food / Restaurants",color:"#1565c0",addr:"1734 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",rating:4.4,lat:-28.0885455,lon:153.45055779999998,gm:"https://maps.google.com/?cid=10842182678559975769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"The Malibu Racquet Club",cat:"Bar",area:"Burleigh Heads",label:"Bars / Breweries",color:"#8e24aa",addr:"1740 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",rating:4.6,lat:-28.088576699999997,lon:153.450491,gm:"https://maps.google.com/?cid=8364920161724368797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Topgolf Gold Coast",cat:"Attraction",area:"Gold Coast",label:"Attractions / Things to do",color:"#c62828",addr:"Cnr. Roadshow Way and Entertainment Drive, Oxenford QLD 4210, Australia",rating:4.4,lat:-27.909913999999997,lon:153.3145294,gm:"https://maps.google.com/?cid=5180888187182217776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Tamborine Mountain",cat:"Attraction",area:"Hinterland",label:"Attractions / Things to do",color:"#c62828",addr:"Tamborine Mountain QLD 4272, Australia",rating:null,lat:-27.928402400000003,lon:153.184462,gm:"https://maps.google.com/?cid=361030531176900320&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Main Beach",cat:"Attraction",area:"Main Beach",label:"Attractions / Things to do",color:"#c62828",addr:"Main Beach QLD, Australia",rating:null,lat:-27.9796215,lon:153.4248825,gm:"https://maps.google.com/?cid=361030531176899600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Sea World",cat:"Attraction",area:"Main Beach",label:"Attractions / Things to do",color:"#c62828",addr:"Seaworld Dr, Main Beach QLD 4217, Australia",rating:4.2,lat:-27.957241699999997,lon:153.42551609999998,gm:"https://maps.google.com/?cid=18070066136892264864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Bine Bar &amp; Dining",cat:"Food",area:"Nobby Beach",label:"Food / Restaurants",color:"#1565c0",addr:"1/28 Chairlift Ave, Mermaid Beach QLD 4218, Australia",rating:4.4,lat:-28.0604148,lon:153.43794029999998,gm:"https://maps.google.com/?cid=11781414079136341162&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"FRANC JRS NOBBYS",cat:"Food",area:"Nobby Beach",label:"Food / Restaurants",color:"#1565c0",addr:"Nobbys Arcade, Unit 2/32 Lavarack Rd, Mermaid Beach QLD 4218, Australia",rating:4.5,lat:-28.059728,lon:153.43837779999998,gm:"https://maps.google.com/?cid=3199985298538621827&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Lars Bar &amp; Grill",cat:"Food",area:"Nobby Beach",label:"Food / Restaurants",color:"#1565c0",addr:"Lease 1/2217 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",rating:4.4,lat:-28.059431999999997,lon:153.4385529,gm:"https://maps.google.com/?cid=5438613567291136483&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Monsieur Chow",cat:"Food",area:"Nobby Beach",label:"Food / Restaurants",color:"#1565c0",addr:"3/2215 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",rating:4.5,lat:-28.059818,lon:153.438289,gm:"https://maps.google.com/?cid=5765450446691822715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Nobby Beach",cat:"Bar",area:"Nobby Beach",label:"Bars / Breweries",color:"#8e24aa",addr:"Nobby Beach, Queensland, Australia",rating:4.8,lat:-28.053433499999997,lon:153.4410418,gm:"https://maps.google.com/?cid=7163591868128024662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Nobby&#x27;s Beach Surf Club - Restaurant",cat:"Food",area:"Nobby Beach",label:"Food / Restaurants",color:"#1565c0",addr:"25 Albatross Ave, Mermaid Beach QLD 4218, Australia",rating:4.2,lat:-28.0588469,lon:153.44147379999998,gm:"https://maps.google.com/?cid=11901452045157442194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Nort\u00e9",cat:"Bar",area:"Nobby Beach",label:"Bars / Breweries",color:"#8e24aa",addr:"2217 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",rating:4.6,lat:-28.059431999999997,lon:153.4385529,gm:"https://maps.google.com/?cid=7515003782473980897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Sue\u00f1o Rooftop",cat:"Bar",area:"Nobby Beach",label:"Bars / Breweries",color:"#8e24aa",addr:"2217 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",rating:4.5,lat:-28.059431999999997,lon:153.4385529,gm:"https://maps.google.com/?cid=13956739496800868446&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Black Hops Brewery",cat:"Bar",area:"North Burleigh",label:"Bars / Breweries",color:"#8e24aa",addr:"15 Gardenia Grove, Burleigh Heads QLD 4220, Australia",rating:4.8,lat:-28.0786187,lon:153.4446103,gm:"https://maps.google.com/?cid=13839982069966117350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Hard Fizz HQ Taproom",cat:"Bar",area:"North Burleigh",label:"Bars / Breweries",color:"#8e24aa",addr:"16 Hibiscus Haven, Burleigh Waters QLD 4220, Australia",rating:4.9,lat:-28.0775357,lon:153.4443923,gm:"https://maps.google.com/?cid=14802586334294977119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Miami Marketta",cat:"Attraction",area:"North Burleigh",label:"Attractions / Things to do",color:"#c62828",addr:"23 Hillcrest Parade, Miami QLD 4220, Australia",rating:4.6,lat:-28.063784899999998,lon:153.4357647,gm:"https://maps.google.com/?cid=10528817210932648808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Paddock Bakery",cat:"Cafe",area:"North Burleigh",label:"Coffee / Bakery",color:"#e67e22",addr:"20 Hibiscus Haven, Burleigh Heads QLD 4220, Australia",rating:4.5,lat:-28.076974,lon:153.44423,gm:"https://maps.google.com/?cid=1323913797257118078&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Padre Brewing Company",cat:"Bar",area:"North Burleigh",label:"Bars / Breweries",color:"#8e24aa",addr:"9 Ozone Parade, Miami QLD 4220, Australia",rating:4.7,lat:-28.0641006,lon:153.4345678,gm:"https://maps.google.com/?cid=11280178226592351947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Palm Springs Burleigh",cat:"Cafe",area:"North Burleigh",label:"Coffee / Bakery",color:"#e67e22",addr:"1878 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",rating:4.6,lat:-28.078189599999998,lon:153.4458057,gm:"https://maps.google.com/?cid=15287401577417823680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Precinct Brewing",cat:"Bar",area:"North Burleigh",label:"Bars / Breweries",color:"#8e24aa",addr:"17 Christine Ave, Miami QLD 4220, Australia",rating:4.4,lat:-28.076810100000003,lon:153.443792,gm:"https://maps.google.com/?cid=15133599863005010157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Custard Canteen",cat:"Cafe",area:"Southern GC",label:"Coffee / Bakery",color:"#e67e22",addr:"1525 Gold Coast Hwy, Palm Beach QLD 4221, Australia",rating:4.5,lat:-28.099229299999998,lon:153.4591001,gm:"https://maps.google.com/?cid=1538847971901468904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Kirra Beach Hotel",cat:"Food",area:"Southern GC",label:"Food / Restaurants",color:"#1565c0",addr:"2 Marine Parade, Coolangatta QLD 4225, Australia",rating:4.3,lat:-28.167543,lon:153.5312203,gm:"https://maps.google.com/?cid=4525394528627458453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Siblings@Kirra",cat:"Food",area:"Southern GC",label:"Food / Restaurants",color:"#1565c0",addr:"15 Marine Parade, Coolangatta QLD 4225, Australia",rating:4.7,lat:-28.1672813,lon:153.53201959999998,gm:"https://maps.google.com/?cid=15229455813819975225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Tallebudgera Surf Club",cat:"Food",area:"Southern GC",label:"Food / Restaurants",color:"#1565c0",addr:"1505 Gold Coast Hwy, Palm Beach QLD 4221, Australia",rating:4.3,lat:-28.100410699999998,lon:153.4623308,gm:"https://maps.google.com/?cid=1096614366771912382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"The Salt Mill",cat:"Cafe",area:"Southern GC",label:"Coffee / Bakery",color:"#e67e22",addr:"784 Pacific Parade, Currumbin QLD 4223, Australia",rating:4.6,lat:-28.1313802,lon:153.4880775,gm:"https://maps.google.com/?cid=15293275925683844888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"Tommy\u2019s Italian",cat:"Food",area:"Southern GC",label:"Food / Restaurants",color:"#1565c0",addr:"818 Pacific Parade, Currumbin QLD 4223, Australia",rating:4.3,lat:-28.1300292,lon:153.48725349999998,gm:"https://maps.google.com/?cid=7673380767458415132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"},
+      {name:"SkyPoint Observation Deck",cat:"Attraction",area:"Surfers Paradise",label:"Attractions / Things to do",color:"#c62828",addr:"Q1 Building, Level 77/9 Hamilton Ave, Surfers Paradise QLD 4217, Australia",rating:4.5,lat:-28.0063049,lon:153.42965719999998,gm:"https://maps.google.com/?cid=13681918085351107076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"}
+    ];
+    places.forEach((p,i)=>{
+      const n=i+1;
+      const html=`<div style="width:24px;height:24px;border-radius:50%;background:${p.color};border:2.5px solid #fff;
+        box-shadow:0 2px 6px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;
+        font:700 11px/1 Arial;color:#fff">${n}</div>`;
+      const rating = p.rating ? ` · ★ ${p.rating}` : '';
+      L.marker([p.lat,p.lon], {icon: L.divIcon({className:'',html,iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map)
+        .bindPopup(`<div class="pin-cat">${p.label} · ${p.area}${rating}</div><div class="pin-title">${p.name}</div>
+                    <div class="pin-desc">${p.addr}</div>
+                    <a href="${p.gm}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 12px;background:#4285F4;color:#fff;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600">📍 Open in Google Maps</a>`);
+    });
+  </script>
+</body>
+</html>
