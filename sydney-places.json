@@ -8,7 +8,7 @@
     "lat": -33.875427,
     "lon": 151.2088003,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Bistecca": {
     "name": "Bistecca",
@@ -19,7 +19,7 @@
     "lat": -33.8632981,
     "lon": 151.2078628,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Cafe Felix": {
     "name": "Cafe Felix",
@@ -30,7 +30,7 @@
     "lat": -33.866682,
     "lon": 151.207768,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Elements Bar and Grill": {
     "name": "Elements Bar and Grill",
@@ -41,7 +41,7 @@
     "lat": -33.8656891,
     "lon": 151.1910005,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "6Head": {
     "name": "6Head",
@@ -52,7 +52,7 @@
     "lat": -33.856647599999995,
     "lon": 151.2090994,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Kingsleys": {
     "name": "Kingsleys",
@@ -63,7 +63,7 @@
     "lat": -33.868877999999995,
     "lon": 151.20404810000002,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Funkatello": {
     "name": "Funkatello",
@@ -74,7 +74,7 @@
     "lat": -33.8756511,
     "lon": 151.2157255,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Bar Reggio": {
     "name": "Bar Reggio",
@@ -85,7 +85,7 @@
     "lat": -33.8760833,
     "lon": 151.2157715,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Matteo": {
     "name": "Matteo",
@@ -96,7 +96,7 @@
     "lat": -33.8644622,
     "lon": 151.2081264,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Apollo": {
     "name": "Apollo",
@@ -107,7 +107,7 @@
     "lat": -33.8708503,
     "lon": 151.22535779999998,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Pony": {
     "name": "Pony",
@@ -118,7 +118,7 @@
     "lat": -33.8590136,
     "lon": 151.20845359999998,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Woodcut": {
     "name": "Woodcut",
@@ -129,7 +129,7 @@
     "lat": -33.862679799999995,
     "lon": 151.2011949,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Bar Luca": {
     "name": "Bar Luca",
@@ -140,7 +140,7 @@
     "lat": -33.863968,
     "lon": 151.21193399999999,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Fabbrica": {
     "name": "Fabbrica",
@@ -151,7 +151,7 @@
     "lat": -33.8692083,
     "lon": 151.21006599999998,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "The Gidley": {
     "name": "The Gidley",
@@ -162,7 +162,7 @@
     "lat": -33.8692214,
     "lon": 151.21015549999998,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Mr Wong": {
     "name": "Mr Wong",
@@ -173,7 +173,7 @@
     "lat": -33.8640567,
     "lon": 151.20785210000003,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Alegra": {
     "name": "Alegra",
@@ -184,7 +184,7 @@
     "lat": -33.882487999999995,
     "lon": 151.196397,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Clam Bar": {
     "name": "Clam Bar",
@@ -195,7 +195,7 @@
     "lat": -33.8632044,
     "lon": 151.2109731,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Elliott's": {
     "name": "Elliott's",
@@ -206,7 +206,7 @@
     "lat": -33.856355799999996,
     "lon": 151.1724999,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Lavendra Indian": {
     "name": "Lavendra Indian",
@@ -217,7 +217,7 @@
     "lat": -33.843236,
     "lon": 151.208143,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Neptune's Grotto": {
     "name": "Neptune's Grotto",
@@ -228,7 +228,7 @@
     "lat": -33.8632044,
     "lon": 151.2109731,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Naples (APPIZZA)": {
     "name": "Naples (APPIZZA)",
@@ -239,7 +239,7 @@
     "lat": -33.8809702,
     "lon": 151.21725229999998,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "The Fenwick": {
     "name": "The Fenwick",
@@ -250,7 +250,7 @@
     "lat": -33.8573034,
     "lon": 151.1957224,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Grace of India": {
     "name": "Grace of India",
@@ -261,7 +261,7 @@
     "lat": -33.845568799999995,
     "lon": 151.2123513,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Tommy's Dining": {
     "name": "Tommy's Dining",
@@ -272,7 +272,7 @@
     "lat": -33.8788,
     "lon": 151.22105969999998,
     "area": "Dinner",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Banksia Bakehouse": {
     "name": "Banksia Bakehouse",
@@ -283,7 +283,7 @@
     "lat": -33.862387999999996,
     "lon": 151.2073333,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Bakery"
   },
   "Binge Kitchen": {
     "name": "Binge Kitchen",
@@ -294,7 +294,7 @@
     "lat": -33.8711841,
     "lon": 151.2061132,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Cafe"
   },
   "Bopp & Tone": {
     "name": "Bopp & Tone",
@@ -305,7 +305,7 @@
     "lat": -33.8668185,
     "lon": 151.2064637,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Restaurant"
   },
   "The Fenwick Cafe": {
     "name": "The Fenwick Cafe",
@@ -316,7 +316,7 @@
     "lat": -33.8573034,
     "lon": 151.1957224,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Cafe"
   },
   "Bourke Street Bakery": {
     "name": "Bourke Street Bakery",
@@ -327,7 +327,7 @@
     "lat": -33.8894017,
     "lon": 151.2148985,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Bakery"
   },
   "Cross Section": {
     "name": "Cross Section",
@@ -338,7 +338,7 @@
     "lat": -33.8786501,
     "lon": 151.22635259999998,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Cafe"
   },
   "Pi\u00f1a": {
     "name": "Pi\u00f1a",
@@ -349,7 +349,7 @@
     "lat": -33.8724136,
     "lon": 151.2243411,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Restaurant"
   },
   "Kaska": {
     "name": "Kaska",
@@ -360,7 +360,7 @@
     "lat": -33.878892799999996,
     "lon": 151.2248158,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Restaurant"
   },
   "Bar Mammoni": {
     "name": "Bar Mammoni",
@@ -371,7 +371,7 @@
     "lat": -33.8626863,
     "lon": 151.2108475,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Restaurant"
   },
   "La Renaissance Courtyard Cafe": {
     "name": "La Renaissance Courtyard Cafe",
@@ -382,7 +382,7 @@
     "lat": -33.8593009,
     "lon": 151.20847519999998,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Cafe"
   },
   "Tenacious": {
     "name": "Tenacious",
@@ -393,7 +393,7 @@
     "lat": -33.8792007,
     "lon": 151.2146819,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Cafe"
   },
   "Igniis Bake": {
     "name": "Igniis Bake",
@@ -404,7 +404,7 @@
     "lat": -33.8727605,
     "lon": 151.2242975,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Cafe"
   },
   "Flour and Stone": {
     "name": "Flour and Stone",
@@ -415,7 +415,7 @@
     "lat": -33.873560999999995,
     "lon": 151.2154123,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Cafe"
   },
   "Pisa Slice": {
     "name": "Pisa Slice",
@@ -426,7 +426,7 @@
     "lat": -33.8581523,
     "lon": 151.2083218,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Restaurant"
   },
   "Bella Baciata": {
     "name": "Bella Baciata",
@@ -437,7 +437,7 @@
     "lat": -33.8627135,
     "lon": 151.21076779999999,
     "area": "Lunch/cafe",
-    "cat": "Lunch/Cafe"
+    "cat": "Restaurant"
   },
   "Baxter Inn": {
     "name": "Baxter Inn",
@@ -668,7 +668,7 @@
     "lat": -33.8823153,
     "lon": 151.227978,
     "area": "Paddington",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Padre": {
     "name": "Padre",
@@ -679,7 +679,7 @@
     "lat": -33.8822802,
     "lon": 151.22863189999998,
     "area": "Paddington",
-    "cat": "Dinner"
+    "cat": "Cafe"
   },
   "Tequila Mockingbird": {
     "name": "Tequila Mockingbird",
@@ -690,7 +690,7 @@
     "lat": -33.8825584,
     "lon": 151.22822499999998,
     "area": "Paddington",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Mary's Hot Pizza": {
     "name": "Mary's Hot Pizza",
@@ -701,7 +701,7 @@
     "lat": -33.8941561,
     "lon": 151.2251943,
     "area": "Paddington",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Paddo Grind": {
     "name": "Paddo Grind",
@@ -712,7 +712,7 @@
     "lat": -33.8859765,
     "lon": 151.22848869999999,
     "area": "Paddington",
-    "cat": "Dinner"
+    "cat": "Cafe"
   },
   "Adelaide's Kitchen": {
     "name": "Adelaide's Kitchen",
@@ -723,7 +723,7 @@
     "lat": -33.8864496,
     "lon": 151.2280982,
     "area": "Paddington",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Chubby Cheeks": {
     "name": "Chubby Cheeks",
@@ -734,7 +734,7 @@
     "lat": -33.8877841,
     "lon": 151.2308593,
     "area": "Paddington",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Big Dave's": {
     "name": "Big Dave's",
@@ -745,7 +745,7 @@
     "lat": -33.942437999999996,
     "lon": 151.238972,
     "area": "Maroubra",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Billy's": {
     "name": "Billy's",
@@ -767,7 +767,7 @@
     "lat": -33.9513369,
     "lon": 151.25035889999998,
     "area": "Maroubra",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Aree Thai": {
     "name": "Aree Thai",
@@ -778,7 +778,7 @@
     "lat": -33.9390314,
     "lon": 151.2382843,
     "area": "Maroubra",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Eksentrik": {
     "name": "Eksentrik",
@@ -811,7 +811,7 @@
     "lat": -33.9427786,
     "lon": 151.24014,
     "area": "Maroubra",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "La Boulangerie": {
     "name": "La Boulangerie",
@@ -822,7 +822,7 @@
     "lat": -33.9406496,
     "lon": 151.23808409999998,
     "area": "Maroubra",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Tradewinds": {
     "name": "Tradewinds",
@@ -833,7 +833,7 @@
     "lat": -33.9416611,
     "lon": 151.24101389999998,
     "area": "Maroubra",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Zebra Cafe": {
     "name": "Zebra Cafe",
@@ -888,7 +888,7 @@
     "lat": -33.9468183,
     "lon": 151.21426449999998,
     "area": "Maroubra",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Sugarcane Thai": {
     "name": "Sugarcane Thai",
@@ -899,7 +899,7 @@
     "lat": -33.9229248,
     "lon": 151.256565,
     "area": "Coogee",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Lox in a Box": {
     "name": "Lox in a Box",
@@ -910,7 +910,7 @@
     "lat": -33.9205192,
     "lon": 151.2554345,
     "area": "Coogee",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Little Kitchen": {
     "name": "Little Kitchen",
@@ -921,7 +921,7 @@
     "lat": -33.9238486,
     "lon": 151.25636599999999,
     "area": "Coogee",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Melon Head": {
     "name": "Melon Head",
@@ -943,7 +943,7 @@
     "lat": -33.9206655,
     "lon": 151.254849,
     "area": "Coogee",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "La Spiaggia": {
     "name": "La Spiaggia",
@@ -954,7 +954,7 @@
     "lat": -33.9204964,
     "lon": 151.2559296,
     "area": "Coogee",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "The Clove": {
     "name": "The Clove",
@@ -965,7 +965,7 @@
     "lat": -33.9172303,
     "lon": 151.2586679,
     "area": "Coogee",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Louie": {
     "name": "Louie",
@@ -976,7 +976,7 @@
     "lat": -33.9232022,
     "lon": 151.2560188,
     "area": "Coogee",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Coffee Room": {
     "name": "Coffee Room",
@@ -998,7 +998,7 @@
     "lat": -33.9201683,
     "lon": 151.2538156,
     "area": "Coogee",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Shea's": {
     "name": "Shea's",
@@ -1009,7 +1009,7 @@
     "lat": -33.911348,
     "lon": 151.2539497,
     "area": "Clovelly",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Tuga Bakery": {
     "name": "Tuga Bakery",
@@ -1020,7 +1020,7 @@
     "lat": -33.9115076,
     "lon": 151.25490109999998,
     "area": "Clovelly",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Meet Me at Clovelly": {
     "name": "Meet Me at Clovelly",
@@ -1031,7 +1031,7 @@
     "lat": -33.913609799999996,
     "lon": 151.26450699999998,
     "area": "Clovelly",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Out of the Blue": {
     "name": "Out of the Blue",
@@ -1042,7 +1042,7 @@
     "lat": -33.912222199999995,
     "lon": 151.2583333,
     "area": "Clovelly",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Madame & Ivye's": {
     "name": "Madame & Ivye's",
@@ -1053,7 +1053,7 @@
     "lat": -33.9121823,
     "lon": 151.2596783,
     "area": "Clovelly",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Clo Deli": {
     "name": "Clo Deli",
@@ -1075,7 +1075,7 @@
     "lat": -33.8914642,
     "lon": 151.273529,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Rocker": {
     "name": "Rocker",
@@ -1086,7 +1086,7 @@
     "lat": -33.889368399999995,
     "lon": 151.2837974,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Blackwood Bondi": {
     "name": "Blackwood Bondi",
@@ -1097,7 +1097,7 @@
     "lat": -33.885715,
     "lon": 151.2733503,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Totti's": {
     "name": "Totti's",
@@ -1108,7 +1108,7 @@
     "lat": -33.8948987,
     "lon": 151.26878979999998,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Icebergs": {
     "name": "Icebergs",
@@ -1119,7 +1119,7 @@
     "lat": -33.89508910000001,
     "lon": 151.2743049,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Elva": {
     "name": "Elva",
@@ -1130,7 +1130,7 @@
     "lat": -33.8947717,
     "lon": 151.2682166,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Laurie's": {
     "name": "Laurie's",
@@ -1141,7 +1141,7 @@
     "lat": -33.894463099999996,
     "lon": 151.26788439999999,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Bangkok Bites": {
     "name": "Bangkok Bites",
@@ -1152,7 +1152,7 @@
     "lat": -33.8962205,
     "lon": 151.1801375,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Bondi Hardware": {
     "name": "Bondi Hardware",
@@ -1163,7 +1163,7 @@
     "lat": -33.8902528,
     "lon": 151.2728778,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Neighbourhood": {
     "name": "Neighbourhood",
@@ -1185,7 +1185,7 @@
     "lat": -33.889089600000005,
     "lon": 151.27564999999998,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Don Pedros": {
     "name": "Don Pedros",
@@ -1196,7 +1196,7 @@
     "lat": -33.8919243,
     "lon": 151.27297289999998,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Chapter One": {
     "name": "Chapter One",
@@ -1218,7 +1218,7 @@
     "lat": -33.887530000000005,
     "lon": 151.272552,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Bills": {
     "name": "Bills",
@@ -1229,7 +1229,7 @@
     "lat": -33.8898493,
     "lon": 151.27205519999998,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Shuk": {
     "name": "Shuk",
@@ -1251,7 +1251,7 @@
     "lat": -33.9253079,
     "lon": 151.22245949999999,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Mapo Gelato": {
     "name": "Mapo Gelato",
@@ -1273,7 +1273,7 @@
     "lat": -33.8882974,
     "lon": 151.2779519,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Up South": {
     "name": "Up South",
@@ -1284,7 +1284,7 @@
     "lat": -33.8946167,
     "lon": 151.2674749,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Speedo Cafe": {
     "name": "Speedo Cafe",
@@ -1306,7 +1306,7 @@
     "lat": -33.891238,
     "lon": 151.27363900000003,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Two Forks": {
     "name": "Two Forks",
@@ -1317,7 +1317,7 @@
     "lat": -33.890194099999995,
     "lon": 151.2720982,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Harry's": {
     "name": "Harry's",
@@ -1383,7 +1383,7 @@
     "lat": -33.8944347,
     "lon": 151.2679619,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Birichina": {
     "name": "Birichina",
@@ -1405,7 +1405,7 @@
     "lat": -33.885824,
     "lon": 151.2735617,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Pizza Laundry": {
     "name": "Pizza Laundry",
@@ -1427,7 +1427,7 @@
     "lat": -33.886277,
     "lon": 151.2731441,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Lulu": {
     "name": "Lulu",
@@ -1438,7 +1438,7 @@
     "lat": -33.8895899,
     "lon": 151.2716827,
     "area": "Bondi",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Chilli Home Thai": {
     "name": "Chilli Home Thai",
@@ -1449,7 +1449,7 @@
     "lat": -33.8922771,
     "lon": 151.2484184,
     "area": "Bondi Junction",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Three Beans Cafe": {
     "name": "Three Beans Cafe",
@@ -1471,7 +1471,7 @@
     "lat": -33.8914152,
     "lon": 151.2508154,
     "area": "Bondi Junction",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Gusto Coffee": {
     "name": "Gusto Coffee",
@@ -1515,7 +1515,7 @@
     "lat": -33.913050999999996,
     "lon": 151.24232519999998,
     "area": "Randwick",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Maybe Frank": {
     "name": "Maybe Frank",
@@ -1526,7 +1526,7 @@
     "lat": -33.920941,
     "lon": 151.243003,
     "area": "Randwick",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Wing Boy": {
     "name": "Wing Boy",
@@ -1537,7 +1537,7 @@
     "lat": -33.9198871,
     "lon": 151.2429295,
     "area": "Randwick",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "The Laundrette": {
     "name": "The Laundrette",
@@ -1559,7 +1559,7 @@
     "lat": -33.9158036,
     "lon": 151.2405212,
     "area": "Randwick",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Del Punto": {
     "name": "Del Punto",
@@ -1570,7 +1570,7 @@
     "lat": -33.9204334,
     "lon": 151.24330799999998,
     "area": "Randwick",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Tio's": {
     "name": "Tio's",
@@ -1581,7 +1581,7 @@
     "lat": -33.8796639,
     "lon": 151.21043440000003,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "The Butler": {
     "name": "The Butler",
@@ -1592,7 +1592,7 @@
     "lat": -33.871688,
     "lon": 151.22268,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Single O": {
     "name": "Single O",
@@ -1614,7 +1614,7 @@
     "lat": -33.882877799999996,
     "lon": 151.21102779999998,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Dang": {
     "name": "Dang",
@@ -1625,7 +1625,7 @@
     "lat": -33.8849766,
     "lon": 151.2078579,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Kwila": {
     "name": "Kwila",
@@ -1636,7 +1636,7 @@
     "lat": -33.8806952,
     "lon": 151.20955229999998,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Three Williams Cafe": {
     "name": "Three Williams Cafe",
@@ -1669,7 +1669,7 @@
     "lat": -33.885114,
     "lon": 151.2159959,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Vasco": {
     "name": "Vasco",
@@ -1680,7 +1680,7 @@
     "lat": -33.8917877,
     "lon": 151.2136191,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Vacanza": {
     "name": "Vacanza",
@@ -1691,7 +1691,7 @@
     "lat": -33.8850846,
     "lon": 151.21584339999998,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Masala Theory": {
     "name": "Masala Theory",
@@ -1702,7 +1702,7 @@
     "lat": -33.8902523,
     "lon": 151.2128055,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Armorica": {
     "name": "Armorica",
@@ -1713,7 +1713,7 @@
     "lat": -33.8868562,
     "lon": 151.21381069999998,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Tonton Bread": {
     "name": "Tonton Bread",
@@ -1724,7 +1724,7 @@
     "lat": -33.8855747,
     "lon": 151.21701389999998,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Humble Bakery": {
     "name": "Humble Bakery",
@@ -1735,7 +1735,7 @@
     "lat": -33.8863238,
     "lon": 151.20956999999999,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Giuls": {
     "name": "Giuls",
@@ -1746,7 +1746,7 @@
     "lat": -33.8891917,
     "lon": 151.2130062,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Beyond the Bookcase": {
     "name": "Beyond the Bookcase",
@@ -1757,7 +1757,7 @@
     "lat": -33.8878775,
     "lon": 151.207925,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Cicerone": {
     "name": "Cicerone",
@@ -1768,7 +1768,7 @@
     "lat": -33.8822968,
     "lon": 151.2160865,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Bessie's and Alma": {
     "name": "Bessie's and Alma",
@@ -1779,7 +1779,7 @@
     "lat": -33.8834095,
     "lon": 151.2125193,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Paramount": {
     "name": "Paramount",
@@ -1801,7 +1801,7 @@
     "lat": -33.8812889,
     "lon": 151.20906109999999,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Pan Divino": {
     "name": "Pan Divino",
@@ -1812,7 +1812,7 @@
     "lat": -33.888729,
     "lon": 151.2134831,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Lode Pies": {
     "name": "Lode Pies",
@@ -1823,7 +1823,7 @@
     "lat": -33.8881521,
     "lon": 151.21323909999998,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Porteno": {
     "name": "Porteno",
@@ -1834,7 +1834,7 @@
     "lat": -33.8863627,
     "lon": 151.2093471,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Bascino Espresso": {
     "name": "Bascino Espresso",
@@ -1845,7 +1845,7 @@
     "lat": -33.886291,
     "lon": 151.21355789999998,
     "area": "Surry Hills",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Locale": {
     "name": "Locale",
@@ -1856,7 +1856,7 @@
     "lat": -33.9062923,
     "lon": 151.26323159999998,
     "area": "Bronte",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "The Coop": {
     "name": "The Coop",
@@ -1867,7 +1867,7 @@
     "lat": -33.9047193,
     "lon": 151.2666174,
     "area": "Bronte",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Vacanza Pizza": {
     "name": "Vacanza Pizza",
@@ -1878,7 +1878,7 @@
     "lat": -33.9018963,
     "lon": 151.2543732,
     "area": "Bronte",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Walrus": {
     "name": "Walrus",
@@ -1889,7 +1889,7 @@
     "lat": -33.9031093,
     "lon": 151.25474839999998,
     "area": "Bronte",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Iggy's Pastries": {
     "name": "Iggy's Pastries",
@@ -1900,7 +1900,7 @@
     "lat": -33.9062035,
     "lon": 151.2633809,
     "area": "Bronte",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Butter Boy Bake": {
     "name": "Butter Boy Bake",
@@ -1911,7 +1911,7 @@
     "lat": -33.7978318,
     "lon": 151.2871404,
     "area": "Manly",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Norma's Deli": {
     "name": "Norma's Deli",
@@ -1922,7 +1922,7 @@
     "lat": -33.797935599999995,
     "lon": 151.2873354,
     "area": "Manly",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Rollers": {
     "name": "Rollers",
@@ -1933,7 +1933,7 @@
     "lat": -33.7979455,
     "lon": 151.2876025,
     "area": "Manly",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Anita's": {
     "name": "Anita's",
@@ -1955,7 +1955,7 @@
     "lat": -33.796223100000006,
     "lon": 151.2856013,
     "area": "Manly",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Pizza Pocket": {
     "name": "Pizza Pocket",
@@ -1966,7 +1966,7 @@
     "lat": -33.7943619,
     "lon": 151.2854243,
     "area": "Manly",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Plus 2": {
     "name": "Plus 2",
@@ -1999,7 +1999,7 @@
     "lat": -33.9113755,
     "lon": 151.16415659999998,
     "area": "Marrickville",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Oe Oe Tapas": {
     "name": "Oe Oe Tapas",
@@ -2010,7 +2010,7 @@
     "lat": -33.9025712,
     "lon": 151.16356,
     "area": "Marrickville",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "The Henson": {
     "name": "The Henson",
@@ -2021,7 +2021,7 @@
     "lat": -33.9051572,
     "lon": 151.16132610000003,
     "area": "Marrickville",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Slice Shoppe": {
     "name": "Slice Shoppe",
@@ -2043,7 +2043,7 @@
     "lat": -33.9059051,
     "lon": 151.1650355,
     "area": "Marrickville",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Berta's Deli": {
     "name": "Berta's Deli",
@@ -2054,7 +2054,7 @@
     "lat": -33.9097177,
     "lon": 151.1619383,
     "area": "Marrickville",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Angus": {
     "name": "Angus",
@@ -2065,7 +2065,7 @@
     "lat": -33.9121775,
     "lon": 151.1610292,
     "area": "Marrickville",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "The Boat Shed": {
     "name": "The Boat Shed",
@@ -2076,7 +2076,7 @@
     "lat": -33.987707799999995,
     "lon": 151.2312301,
     "area": "La Perouse",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Breadfern": {
     "name": "Breadfern",
@@ -2087,7 +2087,7 @@
     "lat": -33.8929085,
     "lon": 151.20558599999998,
     "area": "Redfern",
-    "cat": "Cafe"
+    "cat": "Bakery"
   },
   "Coffee Factory": {
     "name": "Coffee Factory",
@@ -2109,7 +2109,7 @@
     "lat": -33.8916592,
     "lon": 151.2123993,
     "area": "Redfern",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Bar Biscotti": {
     "name": "Bar Biscotti",
@@ -2120,7 +2120,7 @@
     "lat": -33.8630426,
     "lon": 151.0880118,
     "area": "North Strathfield",
-    "cat": "Cafe"
+    "cat": "Restaurant"
   },
   "Queens Pastry House": {
     "name": "Queens Pastry House",
@@ -2142,7 +2142,7 @@
     "lat": -33.8986781,
     "lon": 151.176188,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Casa Mia": {
     "name": "Casa Mia",
@@ -2153,7 +2153,7 @@
     "lat": -33.9061467,
     "lon": 151.18094689999998,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "La Favola": {
     "name": "La Favola",
@@ -2164,7 +2164,7 @@
     "lat": -33.894041,
     "lon": 151.18302269999998,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Macelleria": {
     "name": "Macelleria",
@@ -2175,7 +2175,7 @@
     "lat": -33.8984672,
     "lon": 151.1751574,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Sweet Lu": {
     "name": "Sweet Lu",
@@ -2186,7 +2186,7 @@
     "lat": -33.896256799999996,
     "lon": 151.1807206,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Delhi O Delhi": {
     "name": "Delhi O Delhi",
@@ -2197,7 +2197,7 @@
     "lat": -33.8972877,
     "lon": 151.18062039999998,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Art of Spices": {
     "name": "Art of Spices",
@@ -2208,7 +2208,7 @@
     "lat": -33.898522,
     "lon": 151.1745838,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "Famelia": {
     "name": "Famelia",
@@ -2219,7 +2219,7 @@
     "lat": -33.8984453,
     "lon": 151.1760861,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "El Patron": {
     "name": "El Patron",
@@ -2230,7 +2230,7 @@
     "lat": -33.898208,
     "lon": 151.1781699,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   },
   "The Cannery": {
     "name": "The Cannery",
@@ -2251,6 +2251,6 @@
     "lat": -33.899287699999995,
     "lon": 151.182573,
     "area": "Newtown",
-    "cat": "Dinner"
+    "cat": "Restaurant"
   }
 }

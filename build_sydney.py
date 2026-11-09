@@ -7,14 +7,15 @@ OUT = "sydney.html"
 
 # colour + legend label per category
 CAT_STYLE = {
-    "Dinner":    ("#8e24aa", "Dinner"),
-    "Lunch/Cafe":("#e67e22", "Lunch / Cafe"),
+    "Restaurant": ("#8e24aa", "Restaurant"),
+    "Dinner":    ("#8e24aa", "Restaurant"),
+    "Lunch/Cafe":("#e67e22", "Cafe"),
     "Drinks":    ("#00838f", "Drinks"),
-    "Cafe":      ("#e67e22", "Lunch / Cafe"),
+    "Cafe":      ("#e67e22", "Cafe"),
     "Bakery":    ("#2e7d32", "Bakery / Patisserie"),
 }
 # fallback group for any uncategorised area
-DEFAULT_CAT = ("#e67e22", "Lunch / Cafe")
+DEFAULT_CAT = ("#e67e22", "Cafe")
 
 def esc(s):
     return html.escape(str(s), quote=True)
