@@ -7,9 +7,9 @@ OUT = "goldcoast.html"
 
 # category -> (colour, legend label)
 CAT_STYLE = {
-    "Food":       ("#1565c0", "Food / Restaurants"),
-    "Bar":        ("#8e24aa", "Bars / Breweries"),
-    "Cafe":       ("#e67e22", "Coffee / Bakery"),
+    "Restaurant": ("#1565c0", "Restaurants"),
+    "Drinks":     ("#8e24aa", "Drinks / Breweries"),
+    "Cafe":       ("#e67e22", "Cafes / Bakery"),
     "Shopping":   ("#00838f", "Shopping"),
     "Attraction": ("#c62828", "Attractions / Things to do"),
 }

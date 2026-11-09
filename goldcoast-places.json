@@ -13,7 +13,7 @@
   "Hideaway Kitchen and Bar": {
     "display": "Hideaway Kitchen & Bar",
     "addr": "2657 Gold Coast Hwy, Broadbeach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Broadbeach",
     "rating": 4.3,
     "mapsUri": "https://maps.google.com/?cid=16733259935863203026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -24,7 +24,7 @@
   "Mamasan": {
     "display": "Mamasan",
     "addr": "3 Oracle Bvd, Broadbeach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Broadbeach",
     "rating": 4.5,
     "mapsUri": "https://maps.google.com/?cid=2118940487596178701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -35,7 +35,7 @@
   "Kurrawa Surf Club": {
     "display": "Kurrawa Surf Club",
     "addr": "Old Burleigh Rd, Broadbeach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Broadbeach",
     "rating": 4.2,
     "mapsUri": "https://maps.google.com/?cid=3085818025088489776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -57,7 +57,7 @@
   "Glenelg Public House": {
     "display": "The Glenelg Public House",
     "addr": "9/2460 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Broadbeach",
     "rating": 4.5,
     "mapsUri": "https://maps.google.com/?cid=10425136550237478656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -68,7 +68,7 @@
   "Etsu Izakaya": {
     "display": "Etsu Izakaya",
     "addr": "2440 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Broadbeach",
     "rating": 4.6,
     "mapsUri": "https://maps.google.com/?cid=4545098201039631077&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -79,7 +79,7 @@
   "Koi": {
     "display": "Koi Broadbeach",
     "addr": "Shop 101-103/89 Surf Parade, Broadbeach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Broadbeach",
     "rating": 4.5,
     "mapsUri": "https://maps.google.com/?cid=8777208748980143067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -90,7 +90,7 @@
   "Loose Moose Tap House": {
     "display": "The Loose Moose",
     "addr": "F&B 01, 75 Surf Parade, Broadbeach QLD 4218, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "Broadbeach",
     "rating": 4.4,
     "mapsUri": "https://maps.google.com/?cid=17916809211380995653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -101,7 +101,7 @@
   "Blowfish": {
     "display": "Blowfish Seafood \u2605 Steak \u2605 Bar",
     "addr": "3 Oracle Bvd, Broadbeach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Broadbeach",
     "rating": 4.4,
     "mapsUri": "https://maps.google.com/?cid=6163390784147677842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -123,7 +123,7 @@
   "Sueno Rooftop": {
     "display": "Sue\u00f1o Rooftop",
     "addr": "2217 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "Nobby Beach",
     "rating": 4.5,
     "mapsUri": "https://maps.google.com/?cid=13956739496800868446&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -134,7 +134,7 @@
   "Norte": {
     "display": "Nort\u00e9",
     "addr": "2217 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "Nobby Beach",
     "rating": 4.6,
     "mapsUri": "https://maps.google.com/?cid=7515003782473980897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -145,7 +145,7 @@
   "Lars Bar and Grill": {
     "display": "Lars Bar & Grill",
     "addr": "Lease 1/2217 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Nobby Beach",
     "rating": 4.4,
     "mapsUri": "https://maps.google.com/?cid=5438613567291136483&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -156,7 +156,7 @@
   "Franc Jrs": {
     "display": "FRANC JRS NOBBYS",
     "addr": "Nobbys Arcade, Unit 2/32 Lavarack Rd, Mermaid Beach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Nobby Beach",
     "rating": 4.5,
     "mapsUri": "https://maps.google.com/?cid=3199985298538621827&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -167,7 +167,7 @@
   "Ally Chow": {
     "display": "Monsieur Chow",
     "addr": "3/2215 Gold Coast Hwy, Mermaid Beach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Nobby Beach",
     "rating": 4.5,
     "mapsUri": "https://maps.google.com/?cid=5765450446691822715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -178,7 +178,7 @@
   "Bine Bar and Dining": {
     "display": "Bine Bar & Dining",
     "addr": "1/28 Chairlift Ave, Mermaid Beach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Nobby Beach",
     "rating": 4.4,
     "mapsUri": "https://maps.google.com/?cid=11781414079136341162&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -189,7 +189,7 @@
   "Nobby's Surf Club": {
     "display": "Nobby's Beach Surf Club - Restaurant",
     "addr": "25 Albatross Ave, Mermaid Beach QLD 4218, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Nobby Beach",
     "rating": 4.2,
     "mapsUri": "https://maps.google.com/?cid=11901452045157442194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -200,7 +200,7 @@
   "The Miami": {
     "display": "Nobby Beach",
     "addr": "Nobby Beach, Queensland, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "Nobby Beach",
     "rating": 4.8,
     "mapsUri": "https://maps.google.com/?cid=7163591868128024662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -211,7 +211,7 @@
   "Rick Shores": {
     "display": "Rick Shores",
     "addr": "3/43 Goodwin Terrace, Burleigh Heads QLD 4220, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Burleigh Heads",
     "rating": 4.5,
     "mapsUri": "https://maps.google.com/?cid=16336685934142221030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -222,7 +222,7 @@
   "Burleigh Pavilion": {
     "display": "Burleigh Pavilion",
     "addr": "3a/43 Goodwin Terrace, Burleigh Heads QLD 4220, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Burleigh Heads",
     "rating": 3.7,
     "mapsUri": "https://maps.google.com/?cid=2538232742880485451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -233,7 +233,7 @@
   "Mr Hizolas": {
     "display": "Mr Hizola's",
     "addr": "1730 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Burleigh Heads",
     "rating": 4.3,
     "mapsUri": "https://maps.google.com/?cid=15968574196644962578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -244,7 +244,7 @@
   "Justin Lane": {
     "display": "Justin Lane",
     "addr": "Justin Ln, Burleigh Heads QLD 4220, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Burleigh Heads",
     "rating": 3.7,
     "mapsUri": "https://maps.google.com/?cid=6001101717500092449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -255,7 +255,7 @@
   "The Local": {
     "display": "Local Burleigh",
     "addr": "1744 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "Burleigh Heads",
     "rating": 4.3,
     "mapsUri": "https://maps.google.com/?cid=4350731289191729093&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -266,7 +266,7 @@
   "Malibu Racquet Club": {
     "display": "The Malibu Racquet Club",
     "addr": "1740 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "Burleigh Heads",
     "rating": 4.6,
     "mapsUri": "https://maps.google.com/?cid=8364920161724368797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -277,7 +277,7 @@
   "Rosellas": {
     "display": "Rosella's",
     "addr": "1734 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Burleigh Heads",
     "rating": 4.4,
     "mapsUri": "https://maps.google.com/?cid=10842182678559975769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -288,7 +288,7 @@
   "Paloma Wine Bar": {
     "display": "Paloma Wine Bar",
     "addr": "12 James St, Burleigh Heads QLD 4220, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "Burleigh Heads",
     "rating": 4.4,
     "mapsUri": "https://maps.google.com/?cid=15967083875781590751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -299,7 +299,7 @@
   "Jimmy Wahs": {
     "display": "Jimmy Wah's",
     "addr": "1724 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Burleigh Heads",
     "rating": 4.7,
     "mapsUri": "https://maps.google.com/?cid=18216882875661198926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -310,7 +310,7 @@
   "Light Years": {
     "display": "Light Years - Burleigh Heads",
     "addr": "1848 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Burleigh Heads",
     "rating": 4.6,
     "mapsUri": "https://maps.google.com/?cid=14815156772193560296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -321,7 +321,7 @@
   "Apres Surf": {
     "display": "Apres Surf",
     "addr": "1/1837 Gold Coast Hwy, Burleigh Heads QLD 4220, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Burleigh Heads",
     "rating": 4.5,
     "mapsUri": "https://maps.google.com/?cid=17836242561161012533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -354,7 +354,7 @@
   "Hard Fizz Brewery": {
     "display": "Hard Fizz HQ Taproom",
     "addr": "16 Hibiscus Haven, Burleigh Waters QLD 4220, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "North Burleigh",
     "rating": 4.9,
     "mapsUri": "https://maps.google.com/?cid=14802586334294977119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -365,7 +365,7 @@
   "Black Hops Brewery": {
     "display": "Black Hops Brewery",
     "addr": "15 Gardenia Grove, Burleigh Heads QLD 4220, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "North Burleigh",
     "rating": 4.8,
     "mapsUri": "https://maps.google.com/?cid=13839982069966117350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -376,7 +376,7 @@
   "Precinct Brewery": {
     "display": "Precinct Brewing",
     "addr": "17 Christine Ave, Miami QLD 4220, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "North Burleigh",
     "rating": 4.4,
     "mapsUri": "https://maps.google.com/?cid=15133599863005010157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -387,7 +387,7 @@
   "Padre Brewery": {
     "display": "Padre Brewing Company",
     "addr": "9 Ozone Parade, Miami QLD 4220, Australia",
-    "cat": "Bar",
+    "cat": "Drinks",
     "area": "North Burleigh",
     "rating": 4.7,
     "mapsUri": "https://maps.google.com/?cid=11280178226592351947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -409,7 +409,7 @@
   "Kirra Beach Hotel": {
     "display": "Kirra Beach Hotel",
     "addr": "2 Marine Parade, Coolangatta QLD 4225, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Southern GC",
     "rating": 4.3,
     "mapsUri": "https://maps.google.com/?cid=4525394528627458453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -420,7 +420,7 @@
   "Siblings Kirra": {
     "display": "Siblings@Kirra",
     "addr": "15 Marine Parade, Coolangatta QLD 4225, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Southern GC",
     "rating": 4.7,
     "mapsUri": "https://maps.google.com/?cid=15229455813819975225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -442,7 +442,7 @@
   "Tommy's Italian": {
     "display": "Tommy\u2019s Italian",
     "addr": "818 Pacific Parade, Currumbin QLD 4223, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Southern GC",
     "rating": 4.3,
     "mapsUri": "https://maps.google.com/?cid=7673380767458415132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -464,7 +464,7 @@
   "Tallebudgera Surf Club": {
     "display": "Tallebudgera Surf Club",
     "addr": "1505 Gold Coast Hwy, Palm Beach QLD 4221, Australia",
-    "cat": "Food",
+    "cat": "Restaurant",
     "area": "Southern GC",
     "rating": 4.3,
     "mapsUri": "https://maps.google.com/?cid=1096614366771912382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",

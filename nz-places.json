@@ -480,7 +480,7 @@
     "cid_url": "https://maps.google.com/?cid=4273749124844362271&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "The Better Batter",
     "name": "The Better Batter NZ",
     "address": "Lakeside Drive, Canterbury, Lake Tekapo 7999, New Zealand",
@@ -492,7 +492,7 @@
     "cid_url": "https://maps.google.com/?cid=14693613920137344850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Dolce Pizza",
     "name": "Dolce Pizza",
     "address": "6 Rapuwai Lane, Canterbury, Lake Tekapo 7999, New Zealand",
@@ -504,7 +504,7 @@
     "cid_url": "https://maps.google.com/?cid=693475795208113982&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Dawn Coffee",
     "name": "Dawn Coffee",
     "address": "2 Station Bay Rise, Lake Tekapo 7999, New Zealand",
@@ -516,7 +516,7 @@
     "cid_url": "https://maps.google.com/?cid=5522876885266912992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "The Greedy Cow Cafe",
     "name": "The Greedy Cow Cafe",
     "address": "16 Rapuwai Lane, Lake Tekapo 7945, New Zealand",
@@ -528,7 +528,7 @@
     "cid_url": "https://maps.google.com/?cid=16662634450701044267&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "The Wrinkly Rams",
     "name": "The Wrinkly Rams",
     "address": "10 Twizel-Omarama Road, Omarama 9448, New Zealand",
@@ -540,7 +540,7 @@
     "cid_url": "https://maps.google.com/?cid=18334516853719988917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Scroggin Coffee and Eatery",
     "name": "Scroggin Coffee and Eatery",
     "address": "71 Ardmore Street, W\u0101naka 9305, New Zealand",
@@ -552,7 +552,7 @@
     "cid_url": "https://maps.google.com/?cid=18261142740146901549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Crumb Bakehouse",
     "name": "Scroggin Bakehouse",
     "address": "28 Helwick Street, W\u0101naka 9305, New Zealand",
@@ -564,7 +564,7 @@
     "cid_url": "https://maps.google.com/?cid=2484150236409883726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Big Fig",
     "name": "Big Fig Wanaka",
     "address": "105 Ardmore Street, W\u0101naka 9305, New Zealand",
@@ -576,7 +576,7 @@
     "cid_url": "https://maps.google.com/?cid=13173545902838090741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Francesca's Italian Kitchen",
     "name": "Francesca Restaurant",
     "address": "93 Ardmore Street, Wanaka, W\u0101naka 9305, New Zealand",
@@ -588,7 +588,7 @@
     "cid_url": "https://maps.google.com/?cid=8900963599171050599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Pembroke Patisserie",
     "name": "Pembroke Patisserie",
     "address": "20 Alison Avenue Albert Town, W\u0101naka 9382, New Zealand",
@@ -600,7 +600,7 @@
     "cid_url": "https://maps.google.com/?cid=7892024012669349137&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Curbside Coffee and Bagels",
     "name": "Curbside Coffee & Bagels",
     "address": "48 Brownston Street, W\u0101naka 9305, New Zealand",
@@ -612,7 +612,7 @@
     "cid_url": "https://maps.google.com/?cid=17924129253919625828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Charlie Brown Crepes",
     "name": "Charlie Brown Crepes",
     "address": "75 Brownston Street, Wanaka, W\u0101naka 9305, New Zealand",
@@ -624,7 +624,7 @@
     "cid_url": "https://maps.google.com/?cid=1960948772240838034&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "The Coffee Shack",
     "name": "The Coffee Shack W\u0101naka",
     "address": "75 Brownston Street, W\u0101naka 9305, New Zealand",
@@ -636,7 +636,7 @@
     "cid_url": "https://maps.google.com/?cid=11594929451845093848&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "The Good Spot",
     "name": "The Good Spot",
     "address": "34 Anderson Road, W\u0101naka 9305, New Zealand",
@@ -648,7 +648,7 @@
     "cid_url": "https://maps.google.com/?cid=9486996273536682684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Dripping Bowl",
     "name": "Dripping Bowl",
     "address": "82 Anderson Road, Wanaka, W\u0101naka 9305, New Zealand",
@@ -660,7 +660,7 @@
     "cid_url": "https://maps.google.com/?cid=15408140526013324049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Speight's Ale House",
     "name": "Speight's Ale House",
     "address": "93 Ardmore Street, W\u0101naka 9305, New Zealand",
@@ -672,7 +672,7 @@
     "cid_url": "https://maps.google.com/?cid=4075507434414545781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Relishes Cafe",
     "name": "Relishes Cafe",
     "address": "1/99 Ardmore Street, W\u0101naka 9305, New Zealand",
@@ -684,7 +684,7 @@
     "cid_url": "https://maps.google.com/?cid=3594072363331368202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Fergburger",
     "name": "Fergburger",
     "address": "42 Shotover Street, Queenstown 9300, New Zealand",
@@ -696,7 +696,7 @@
     "cid_url": "https://maps.google.com/?cid=1696197572837681183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Cookie Time",
     "name": "Cookie Time Cookie Bar Queenstown",
     "address": "18 Camp Street, Queenstown 9300, New Zealand",
@@ -708,7 +708,7 @@
     "cid_url": "https://maps.google.com/?cid=8692353210379798898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Odd Saint",
     "name": "odd saint",
     "address": "1 Earl Street, Queenstown 9300, New Zealand",
@@ -720,7 +720,7 @@
     "cid_url": "https://maps.google.com/?cid=5836286240726694181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Brunch on Church",
     "name": "Brunch On Church",
     "address": "3 Church Lane, Queenstown 9300, New Zealand",
@@ -732,7 +732,7 @@
     "cid_url": "https://maps.google.com/?cid=10846394905407379734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Marmolada Cafe",
     "name": "Marmolada Cafe",
     "address": "43 Camp Street, Queenstown 9300, New Zealand",
@@ -744,7 +744,7 @@
     "cid_url": "https://maps.google.com/?cid=14015768565316946290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Gypsy Oven",
     "name": "Gypsy Oven",
     "address": "19 Camp Street, Queenstown 9300, New Zealand",
@@ -756,7 +756,7 @@
     "cid_url": "https://maps.google.com/?cid=4785131240800252206&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Boat Shed Cafe",
     "name": "The Boat Shed Cafe",
     "address": "847 Frankton Road, Frankton, Queenstown 9300, New Zealand",
@@ -768,7 +768,7 @@
     "cid_url": "https://maps.google.com/?cid=16783881022704597783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Norkas Kai Cafe",
     "name": "Norka's Bagels & Cafe",
     "address": "Sugar Lane, Frankton, Queenstown 9300, New Zealand",
@@ -780,7 +780,7 @@
     "cid_url": "https://maps.google.com/?cid=6843295521873725543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Perky's Bar",
     "name": "Perky's - Floating Bar Queenstown",
     "address": "Lake Wakatipu, Queenstown 9300, New Zealand",
@@ -792,7 +792,7 @@
     "cid_url": "https://maps.google.com/?cid=17314340800274852695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Patagonia Chocolates",
     "name": "Patagonia Chocolates",
     "address": "31 Ramshaw Lane, Arrowtown 9302, New Zealand",
@@ -804,7 +804,7 @@
     "cid_url": "https://maps.google.com/?cid=12402603312520124622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Milford Road Merchant",
     "name": "Milford Road Merchant",
     "address": "225 Milford Road, Te Anau 9600, New Zealand",
@@ -816,7 +816,7 @@
     "cid_url": "https://maps.google.com/?cid=16993189536033712883&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Sandfly Cafe",
     "name": "Sandfly Cafe Te Anau",
     "address": "9 The Lane, Te Anau 9600, New Zealand",
@@ -828,7 +828,7 @@
     "cid_url": "https://maps.google.com/?cid=18184653218356270182&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Black Shak",
     "name": "Blak Shak Te Anau",
     "address": "72 Town Centre, Te Anau 9600, New Zealand",
@@ -840,7 +840,7 @@
     "cid_url": "https://maps.google.com/?cid=4296382584875952971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Wolf Coffee Roasters",
     "name": "Wolf Coffee Roasters",
     "address": "44 Buckingham Street, Arrowtown 9302, New Zealand",
@@ -852,7 +852,7 @@
     "cid_url": "https://maps.google.com/?cid=8559142196437597891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Arrowtown Bakery",
     "name": "Arrowtown Bakery",
     "address": "14 Buckingham Street, Arrowtown 9302, New Zealand",
@@ -864,7 +864,7 @@
     "cid_url": "https://maps.google.com/?cid=17634375085402031049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Provisions of Arrowtown",
     "name": "Provisions of Arrowtown",
     "address": "65 Buckingham Street, Arrowtown 9302, New Zealand",
@@ -876,7 +876,7 @@
     "cid_url": "https://maps.google.com/?cid=9295336437418000353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "The Fork and Tap",
     "name": "The Fork And Tap",
     "address": "51 Buckingham Street, Arrowtown 9302, New Zealand",
@@ -888,7 +888,7 @@
     "cid_url": "https://maps.google.com/?cid=15381265174742196316&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Remarkable Sweet Shop",
     "name": "The Remarkable Sweet Shop - Arrowtown Shop",
     "address": "27 Buckingham Street, Arrowtown 9302, New Zealand",
@@ -900,7 +900,7 @@
     "cid_url": "https://maps.google.com/?cid=16535895685405927889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Rakau",
     "name": "Rakau",
     "address": "170 Arthurs Point Road, Arthurs Point, Queenstown 9371, New Zealand",
@@ -912,7 +912,7 @@
     "cid_url": "https://maps.google.com/?cid=13144223624361362720&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Gauntleys Tavern",
     "name": "Gantley's Tavern",
     "address": "172 Arthurs Point Road, Arthurs Point, Queenstown 9371, New Zealand",
@@ -924,7 +924,7 @@
     "cid_url": "https://maps.google.com/?cid=17971833654516754043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Pog Mahones",
     "name": "Pog Mahones Irish Pub & Restaurant",
     "address": "14 Rees Street, Queenstown 9300, New Zealand",
@@ -936,7 +936,7 @@
     "cid_url": "https://maps.google.com/?cid=16321826712761900091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Barker Store",
     "name": "Barker's Foodstore & Eatery",
     "address": "71 Talbot Street, Geraldine 7930, New Zealand",
@@ -948,7 +948,7 @@
     "cid_url": "https://maps.google.com/?cid=15941795862096016908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Restaurant",
     "query": "Cafe Verde",
     "name": "Verde Geraldine",
     "address": "45c Talbot Street, Geraldine 7930, New Zealand",
@@ -960,7 +960,7 @@
     "cid_url": "https://maps.google.com/?cid=4405609587725082281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Geraldine Farm Shop and Cafe",
     "name": "Geraldine Farmshop & Cafe",
     "address": "56 Main North Road, Geraldine 7992, New Zealand",
@@ -972,7 +972,7 @@
     "cid_url": "https://maps.google.com/?cid=7670807431845218306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Running Duck",
     "name": "The Running Duck",
     "address": "1 Peel Street, Geraldine 7930, New Zealand",

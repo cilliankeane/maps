@@ -24,7 +24,7 @@
     "cid_url": "https://maps.google.com/?cid=6529988309697867495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "bar",
+    "cat": "Drinks",
     "query": "Felons Brewing Co",
     "name": "Felons Brewing Co",
     "address": "5 Boundary St, Brisbane City QLD 4000, Australia",
@@ -108,7 +108,7 @@
     "cid_url": "https://maps.google.com/?cid=7458826777105219422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "food",
+    "cat": "Cafe",
     "query": "Adonis Cafe",
     "name": "Andonis Cafe & Bar, Fortitude Valley",
     "address": "Unit 28/32 Robertson St, Fortitude Valley QLD 4006, Australia",
@@ -120,7 +120,7 @@
     "cid_url": "https://maps.google.com/?cid=14836044525579638758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   {
-    "cat": "coffee",
+    "cat": "Cafe",
     "query": "Double Maker Coffee",
     "name": "Double Maker Coffee",
     "address": "126 Margaret St, Brisbane City QLD 4000, Australia",
